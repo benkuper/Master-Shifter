@@ -1,0 +1,30 @@
+{
+	"defaultProject": "aurillac",
+	"projects": [
+		{
+			"slug": "demo",
+			"name": "Festival Demo",
+			"period": "10-12 juillet 2026",
+			"description": "Planning de démonstration pour vérifier les vues bénévoles, lieux et missions.",
+			"staticOnly": true,
+			"dataPath": "data/demo/schedule.json"
+		},
+		{
+			"slug": "aurillac",
+			"name": "Aurillac",
+			"enabled": true,
+			"docId": "gE2VteEvGKD4perWMGw1st",
+			"apiBase": "https://docs.getgrist.com/api",
+			"solutionId": 1,
+			"description": "Planning synchronisé depuis Grist.",
+			"tables": {
+				"spots": "Lieux",
+				"questTypes": "Types_de_quetes",
+				"quests": "Quetes",
+				"volunteers": "Benevoles",
+				"assignments": "Assignations",
+				"info": "Infos_generales"
+			}
+		}
+	]
+}

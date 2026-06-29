@@ -1,0 +1,21 @@
+{
+	"defaultProject": "aurillac",
+	"projects": [
+		{
+			"slug": "demo",
+			"name": "Festival Demo",
+			"period": "10-12 juillet 2026",
+			"description": "Planning de démonstration pour vérifier les vues bénévoles, lieux et missions.",
+			"dataPath": "data/demo/schedule.json",
+			"updatedAt": "2026-06-29T11:04:29.204Z"
+		},
+		{
+			"slug": "aurillac",
+			"name": "Aurillac",
+			"period": "19 août - 22 août 2026",
+			"description": "Planning synchronisé depuis Grist.",
+			"dataPath": "data/aurillac/schedule.json",
+			"updatedAt": "2026-06-29T11:04:29.204Z"
+		}
+	]
+}

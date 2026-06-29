@@ -1,0 +1,111 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      force_sync:
+        description: "Redeploy even if the Grist export did not change"
+        required: false
+        default: false
+        type: boolean
+  repository_dispatch:
+    types: [grist-updated]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      should_deploy: ${{ steps.decide.outputs.should_deploy }}
+    env:
+      GRIST_API_KEY: ${{ secrets.GRIST_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Configure GitHub Pages base path
+        shell: bash
+        env:
+          CONFIGURED_BASE_PATH: ${{ vars.PUBLIC_BASE_PATH }}
+          REPOSITORY_NAME: ${{ github.event.repository.name }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          if [ -n "$CONFIGURED_BASE_PATH" ]; then
+            echo "PUBLIC_BASE_PATH=$CONFIGURED_BASE_PATH" >> "$GITHUB_ENV"
+          elif [ "$REPOSITORY_NAME" = "$OWNER.github.io" ]; then
+            echo "PUBLIC_BASE_PATH=" >> "$GITHUB_ENV"
+          else
+            echo "PUBLIC_BASE_PATH=/$REPOSITORY_NAME" >> "$GITHUB_ENV"
+          fi
+
+      - run: npm run sync:data
+
+      - name: Decide whether to deploy
+        id: decide
+        shell: bash
+        env:
+          FORCE_SYNC: ${{ inputs.force_sync || github.event.client_payload.force || 'false' }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if git diff --quiet -- static/data; then
+            data_changed=false
+          else
+            data_changed=true
+          fi
+
+          if [ "$EVENT_NAME" = "push" ] || [ "$FORCE_SYNC" = "true" ] || [ "$data_changed" = "true" ]; then
+            should_deploy=true
+          else
+            should_deploy=false
+          fi
+
+          echo "data_changed=$data_changed" >> "$GITHUB_OUTPUT"
+          echo "should_deploy=$should_deploy" >> "$GITHUB_OUTPUT"
+          echo "data_changed=$data_changed"
+          echo "should_deploy=$should_deploy"
+
+      - name: Commit synced data
+        if: steps.decide.outputs.data_changed == 'true' && github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add static/data
+          git commit -m "Update Grist data [skip ci]"
+          git push
+
+      - if: steps.decide.outputs.should_deploy == 'true'
+        run: npm run check
+      - if: steps.decide.outputs.should_deploy == 'true'
+        run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.decide.outputs.should_deploy == 'true'
+        with:
+          path: build
+
+  deploy:
+    if: needs.build.outputs.should_deploy == 'true'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

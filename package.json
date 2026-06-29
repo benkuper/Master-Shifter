@@ -1,0 +1,29 @@
+{
+	"name": "master-shifter",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev --host 0.0.0.0",
+		"build": "vite build",
+		"preview": "vite preview --host 0.0.0.0",
+		"check": "svelte-kit sync && svelte-check --config ./svelte.config.js --tsconfig ./tsconfig.json",
+		"sync:data": "node scripts/sync-grist.mjs",
+		"inspect:grist": "node scripts/inspect-grist.mjs",
+		"hook:sync": "node scripts/dispatch-sync.mjs"
+	},
+	"dependencies": {
+		"@lucide/svelte": "^1.22.0",
+		"@sveltejs/adapter-static": "^3.0.10",
+		"qrcode": "^1.5.4"
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "^2.68.0",
+		"@sveltejs/vite-plugin-svelte": "^7.1.2",
+		"@types/qrcode": "^1.5.6",
+		"svelte": "^5.56.4",
+		"svelte-check": "^4.7.1",
+		"typescript": "^6.0.3",
+		"vite": "^8.1.0"
+	}
+}

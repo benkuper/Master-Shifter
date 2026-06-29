@@ -1,0 +1,221 @@
+{
+	"schemaVersion": 1,
+	"slug": "demo",
+	"name": "Festival Demo",
+	"period": "10-12 juillet 2026",
+	"description": "Planning de démonstration pour vérifier les vues bénévoles, lieux et missions.",
+	"updatedAt": "2026-06-29T09:00:00.000Z",
+	"timezone": "Europe/Paris",
+	"dayStartHour": 5,
+	"source": {
+		"type": "demo"
+	},
+	"volunteers": [
+		{
+			"id": "v-ana",
+			"name": "Ana",
+			"fullName": "Ana Laurent",
+			"team": "Accueil"
+		},
+		{
+			"id": "v-basile",
+			"name": "Basile",
+			"fullName": "Basile Moreau",
+			"team": "Technique"
+		},
+		{
+			"id": "v-camille",
+			"name": "Camille",
+			"fullName": "Camille Idriss",
+			"team": "Bar"
+		},
+		{
+			"id": "v-jules",
+			"name": "Jules",
+			"fullName": "Jules Meyer",
+			"team": "Logistique"
+		},
+		{
+			"id": "v-maya",
+			"name": "Maya",
+			"fullName": "Maya Diallo",
+			"team": "Artistes"
+		}
+	],
+	"spots": [
+		{
+			"id": "s-entree",
+			"name": "Entree principale",
+			"area": "Parvis",
+			"details": "Scan billets, bracelets et orientation."
+		},
+		{
+			"id": "s-scene",
+			"name": "Scene Aurore",
+			"area": "Grande salle",
+			"details": "Plateau principal et loges proches."
+		},
+		{
+			"id": "s-bar",
+			"name": "Bar central",
+			"area": "Forum",
+			"details": "Service boissons et caisse."
+		},
+		{
+			"id": "s-backstage",
+			"name": "Backstage",
+			"area": "Zone equipe",
+			"details": "Accreditation artistes et catering."
+		}
+	],
+	"missions": [
+		{
+			"id": "m-accueil",
+			"name": "Accueil public",
+			"type": "Public",
+			"description": "Vérifier les billets, poser les bracelets et orienter les arrivées.",
+			"spotId": "s-entree",
+			"questTypeId": "qt-public"
+		},
+		{
+			"id": "m-runner",
+			"name": "Runner artistes",
+			"type": "Artistes",
+			"description": "Accompagner les artistes entre loges, scène et catering.",
+			"spotId": "s-backstage",
+			"questTypeId": "qt-artistes"
+		},
+		{
+			"id": "m-bar",
+			"name": "Service bar",
+			"type": "Bar",
+			"description": "Service au bar, rechargement stock et suivi caisse.",
+			"spotId": "s-bar",
+			"questTypeId": "qt-bar"
+		},
+		{
+			"id": "m-plateau",
+			"name": "Aide plateau",
+			"type": "Technique",
+			"description": "Petite manutention, changement plateau et veille sécurité.",
+			"spotId": "s-scene",
+			"questTypeId": "qt-technique"
+		}
+	],
+	"questTypes": [
+		{
+			"id": "qt-public",
+			"name": "👋 Public",
+			"shortName": "Public",
+			"description": "Accueil, orientation et information public.",
+			"spotId": "s-entree"
+		},
+		{
+			"id": "qt-artistes",
+			"name": "🎤 Artistes",
+			"shortName": "Artistes",
+			"description": "Accompagnement artistes et backstage.",
+			"spotId": "s-backstage"
+		},
+		{
+			"id": "qt-bar",
+			"name": "🍹 Bar",
+			"shortName": "Bar",
+			"description": "Service boissons, stock et caisse.",
+			"spotId": "s-bar"
+		},
+		{
+			"id": "qt-technique",
+			"name": "🛠 Technique",
+			"shortName": "Technique",
+			"description": "Aide plateau et petite logistique technique.",
+			"spotId": "s-scene"
+		}
+	],
+	"tasks": [
+		{
+			"id": "t-001",
+			"title": "Brief equipe accueil",
+			"start": "2026-06-28T09:30:00+02:00",
+			"end": "2026-06-28T10:00:00+02:00",
+			"volunteerIds": ["v-ana", "v-jules"],
+			"spotId": "s-entree",
+			"missionId": "m-accueil",
+			"questTypeId": "qt-public",
+			"notes": "Récupérer talkies et badges avant le brief."
+		},
+		{
+			"id": "t-002",
+			"title": "Ouverture des portes",
+			"start": "2026-07-10T16:30:00+02:00",
+			"end": "2026-07-10T19:00:00+02:00",
+			"volunteerIds": ["v-ana", "v-jules"],
+			"spotId": "s-entree",
+			"missionId": "m-accueil",
+			"questTypeId": "qt-public",
+			"priority": "high"
+		},
+		{
+			"id": "t-003",
+			"title": "Preparation catering",
+			"start": "2026-07-10T17:00:00+02:00",
+			"end": "2026-07-10T18:30:00+02:00",
+			"volunteerIds": ["v-maya"],
+			"spotId": "s-backstage",
+			"missionId": "m-runner",
+			"questTypeId": "qt-artistes"
+		},
+		{
+			"id": "t-004",
+			"title": "Rush bar avant concert",
+			"start": "2026-07-10T18:15:00+02:00",
+			"end": "2026-07-10T20:45:00+02:00",
+			"volunteerIds": ["v-camille", "v-basile"],
+			"spotId": "s-bar",
+			"missionId": "m-bar",
+			"questTypeId": "qt-bar",
+			"notes": "Vérifier le stock écocups à 19h30."
+		},
+		{
+			"id": "t-005",
+			"title": "Changement plateau Orion",
+			"start": "2026-07-10T20:15:00+02:00",
+			"end": "2026-07-10T21:00:00+02:00",
+			"volunteerIds": ["v-basile", "v-maya"],
+			"spotId": "s-scene",
+			"missionId": "m-plateau",
+			"questTypeId": "qt-technique"
+		},
+		{
+			"id": "t-006",
+			"title": "Accueil vague famille",
+			"start": "2026-07-11T10:00:00+02:00",
+			"end": "2026-07-11T12:30:00+02:00",
+			"volunteerIds": ["v-ana", "v-camille"],
+			"spotId": "s-entree",
+			"missionId": "m-accueil",
+			"questTypeId": "qt-public"
+		},
+		{
+			"id": "t-007",
+			"title": "Service dejeuner equipe",
+			"start": "2026-07-11T12:00:00+02:00",
+			"end": "2026-07-11T14:00:00+02:00",
+			"volunteerIds": ["v-jules", "v-maya"],
+			"spotId": "s-backstage",
+			"missionId": "m-runner",
+			"questTypeId": "qt-artistes"
+		},
+		{
+			"id": "t-008",
+			"title": "Fermeture bar",
+			"start": "2026-07-12T00:30:00+02:00",
+			"end": "2026-07-12T02:00:00+02:00",
+			"volunteerIds": ["v-camille", "v-jules"],
+			"spotId": "s-bar",
+			"missionId": "m-bar",
+			"questTypeId": "qt-bar",
+			"notes": "Compter la caisse avec la coordination."
+		}
+	]
+}
