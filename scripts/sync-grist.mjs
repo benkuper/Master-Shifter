@@ -4,6 +4,7 @@ import {
 	compactObject,
 	fetchRecords,
 	formatPeriod,
+	getArg,
 	gristDateTime,
 	loadEnv,
 	ref,
@@ -19,20 +20,27 @@ const outputRoot = 'static/data';
 const config = JSON.parse(readFileSync(configPath, 'utf8'));
 const apiKey = process.env.GRIST_API_KEY;
 const syncedAt = new Date().toISOString();
+const targetProject = process.env.GRIST_PROJECT || getArg('--project', '');
 const existingRegistry = readJsonIfExists(join(outputRoot, 'projects.json'));
 const changedProjects = [];
 
 const registry = {
 	defaultProject: config.defaultProject,
-	projects: []
+	projects: targetProject ? [...(existingRegistry?.projects ?? [])] : []
 };
 
+if (targetProject && !config.projects.some((project) => project.slug === targetProject)) {
+	throw new Error(`Project "${targetProject}" was not found in ${configPath}`);
+}
+
 for (const project of config.projects) {
+	if (targetProject && project.slug !== targetProject) continue;
+
 	if (project.staticOnly) {
 		const staticSchedule = readJsonIfExists(resolveStaticDataPath(project.dataPath));
 		const existingSummary = findExistingSummary(project.slug);
 
-		registry.projects.push({
+		upsertProjectSummary({
 			slug: project.slug,
 			name: project.name,
 			period: project.period,
@@ -64,7 +72,7 @@ for (const project of config.projects) {
 		writeFileSync(outputPath, `${JSON.stringify(schedule, null, '\t')}\n`);
 	}
 
-	registry.projects.push({
+	upsertProjectSummary({
 		slug: schedule.slug,
 		name: schedule.name,
 		period: schedule.period,
@@ -99,6 +107,12 @@ function resolveStaticDataPath(dataPath) {
 
 function findExistingSummary(slug) {
 	return existingRegistry?.projects?.find((project) => project.slug === slug);
+}
+
+function upsertProjectSummary(summary) {
+	const index = registry.projects.findIndex((project) => project.slug === summary.slug);
+	if (index === -1) registry.projects.push(summary);
+	else registry.projects[index] = summary;
 }
 
 function samePublicData(previous, next) {

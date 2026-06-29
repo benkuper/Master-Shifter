@@ -43,6 +43,7 @@ Les sous-URLs de projet sont du type :
 - `/demo`
 - `/mon-festival`
 - `/ccpl-2026`
+- `/all` pour la liste des projets
 
 Sur GitHub Pages projet, elles deviennent `/nom-du-repo/demo`, etc.
 
@@ -60,6 +61,13 @@ Quand les donnees changent, `static/data` est commit automatiquement avec `[skip
 ### Declenchement manuel
 
 Depuis GitHub : Actions -> Deploy GitHub Pages -> Run workflow.
+
+Depuis le site :
+
+- `/update` lance une mise a jour de tous les projets
+- `/<projet>/update` lance une mise a jour d'un seul projet
+
+Comme GitHub Pages est statique et public, ces pages demandent un token GitHub cote navigateur. Utilise un token personnel avec permission `Actions: write` sur ce depot.
 
 Depuis un terminal ou un petit relais :
 

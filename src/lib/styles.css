@@ -144,6 +144,7 @@ button {
 }
 
 .selector-field select,
+.selector-field input,
 .project-select select {
 	width: 100%;
 	min-height: 46px;
@@ -153,6 +154,38 @@ button {
 	color: var(--text);
 	padding: 0 12px;
 	outline: 0;
+}
+
+.check-row {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: var(--text);
+	font-weight: 750;
+}
+
+.check-row input {
+	width: 18px;
+	height: 18px;
+	accent-color: var(--accent);
+}
+
+.status-message {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 12px;
+	border-radius: 8px;
+	background: hsl(var(--surface-h) 28% 8% / 0.42);
+}
+
+.status-message--success {
+	color: var(--accent-strong);
+}
+
+.status-message--error {
+	color: var(--danger);
+	overflow-wrap: anywhere;
 }
 
 .selector-field option,
@@ -201,6 +234,86 @@ button {
 	gap: 14px;
 	max-width: 1180px;
 	margin: 0 auto;
+}
+
+.simple-page {
+	display: grid;
+	gap: 16px;
+	width: min(100%, 980px);
+	margin: 0 auto;
+}
+
+.simple-page__header,
+.project-card,
+.update-card {
+	backdrop-filter: blur(22px) saturate(1.2);
+	-webkit-backdrop-filter: blur(22px) saturate(1.2);
+	border: 1px solid var(--line-strong);
+	border-radius: 8px;
+	box-shadow: var(--shadow);
+}
+
+.simple-page__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 14px;
+	padding: 16px;
+	background:
+		linear-gradient(90deg, hsl(var(--accent-h) 82% 63% / 0.16), transparent 58%),
+		hsl(var(--surface-h) 28% 9% / 0.86);
+}
+
+.simple-page__header h1,
+.project-card h2,
+.update-card h2 {
+	margin: 0;
+	line-height: 1.05;
+}
+
+.simple-page__header h1 {
+	font-size: clamp(1.55rem, 4vw, 3rem);
+}
+
+.project-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+	gap: 12px;
+}
+
+.project-card,
+.update-card {
+	display: grid;
+	gap: 16px;
+	padding: 16px;
+	background:
+		linear-gradient(135deg, hsl(var(--accent-h) 82% 63% / 0.14), hsl(var(--accent-2-h) 88% 67% / 0.08)),
+		var(--panel);
+}
+
+.project-card p,
+.update-card p {
+	margin: 8px 0 0;
+	color: var(--muted);
+	line-height: 1.45;
+}
+
+.project-card__actions,
+.update-card__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.update-page {
+	width: min(100%, 760px);
+}
+
+.update-card__scope {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	color: var(--accent-strong);
 }
 
 .eyebrow {
