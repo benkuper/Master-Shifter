@@ -4,7 +4,6 @@
 	import {
 		CalendarClock,
 		History,
-		Link2,
 		MapPin,
 		Printer,
 		QrCode,
@@ -297,6 +296,13 @@
 		window.print();
 	}
 
+	function scrollToSharePanel() {
+		document.getElementById('share-panel')?.scrollIntoView({
+			behavior: 'smooth',
+			block: 'start'
+		});
+	}
+
 	function projectTheme(seed: string, projectRegistry: ProjectRegistry | null) {
 		return THEME_PALETTE[resolveThemeIndex(seed, projectRegistry)];
 	}
@@ -375,10 +381,10 @@
 					</label>
 				{/if}
 
-				<a class="share-link" href={currentUrl} title="Lien vers cette vue">
-					<Link2 size={18} aria-hidden="true" />
-					<span>Lien</span>
-				</a>
+				<button type="button" class="share-link" title="Afficher le QR code de partage" onclick={scrollToSharePanel}>
+					<QrCode size={18} aria-hidden="true" />
+					<span>Partager</span>
+				</button>
 
 				<button type="button" class="icon-button print-button" title="Imprimer" onclick={printPage}>
 					<Printer size={19} aria-hidden="true" />
@@ -489,7 +495,7 @@
 				{/if}
 			</section>
 
-			<section class="share-panel" aria-label="QR code de la vue actuelle">
+			<section id="share-panel" class="share-panel" aria-label="QR code de la vue actuelle">
 				<div>
 					<p class="eyebrow">Accès rapide</p>
 					<h2>QR code de cette vue</h2>
