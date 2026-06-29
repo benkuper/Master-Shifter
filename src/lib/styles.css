@@ -652,6 +652,20 @@ button {
 	border-color: rgba(255, 107, 107, 0.42);
 }
 
+.break-time.zero {
+	color: var(--amber);
+}
+
+.break-time.zero::before,
+.break-time.zero::after {
+	background: rgba(244, 199, 109, 0.46);
+}
+
+.break-time.zero span {
+	border-color: rgba(244, 199, 109, 0.52);
+	background: rgba(244, 199, 109, 0.12);
+}
+
 .share-panel {
 	grid-template-columns: minmax(0, 1fr) auto;
 	align-items: center;

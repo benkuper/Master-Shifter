@@ -75,7 +75,9 @@
 	let nextTask = $derived(getNextTask(contextTasks));
 	let listTasks = $derived(nextTask ? contextTasks.filter((task) => task.id !== nextTask.id) : contextTasks);
 	let projectTimezone = $derived(project?.timezone ?? 'Europe/Paris');
-	let dayGroups = $derived(groupByDay(listTasks, projectTimezone));
+	let dayStartHour = $derived(normalizeDayStartHour(project?.dayStartHour));
+	let dayGroups = $derived(groupByDay(listTasks, projectTimezone, dayStartHour));
+	let shouldShowBreaks = $derived(mode === 'volunteer' && Boolean(selectedId));
 	let pastCount = $derived(allTasks.filter((task) => task.state === 'past').length);
 	let theme = $derived(projectTheme(loadedSlug || project?.slug || projectSlug || 'master-shifter', registry));
 	let themeStyle = $derived(
@@ -303,8 +305,11 @@
 		});
 	}
 
-	function breakLabel(previousTask: EnrichedTask, nextTask: EnrichedTask) {
-		const minutes = Math.round((new Date(nextTask.start).getTime() - new Date(previousTask.end).getTime()) / 60000);
+	function breakMinutes(previousTask: EnrichedTask, nextTask: EnrichedTask) {
+		return Math.round((new Date(nextTask.start).getTime() - new Date(previousTask.end).getTime()) / 60000);
+	}
+
+	function breakLabel(minutes: number) {
 		if (minutes === 0) return 'Pause 0 min';
 		if (minutes < 0) return `Chevauchement ${formatDuration(Math.abs(minutes))}`;
 		return `Pause ${formatDuration(minutes)}`;
@@ -316,6 +321,13 @@
 		const hours = Math.floor(totalMinutes / 60);
 		const minutes = totalMinutes % 60;
 		return minutes ? `${hours} h ${minutes}` : `${hours} h`;
+	}
+
+	function normalizeDayStartHour(value: number | undefined) {
+		if (value === undefined) return 0;
+
+		const hour = Number(value);
+		return Number.isFinite(hour) ? hour : 0;
 	}
 
 	function projectTheme(seed: string, projectRegistry: ProjectRegistry | null) {
@@ -460,6 +472,7 @@
 						task={nextTask}
 						featured
 						timezone={projectTimezone}
+						dayStartHour={dayStartHour}
 						onSelectVolunteer={(id) => selectEntity('volunteer', id)}
 						onSelectSpot={(id) => selectEntity('spot', id)}
 						onSelectQuestType={(id) => selectEntity('questType', id)}
@@ -494,13 +507,15 @@
 										{task}
 										showDate={false}
 										timezone={projectTimezone}
+										dayStartHour={dayStartHour}
 										onSelectVolunteer={(id) => selectEntity('volunteer', id)}
 										onSelectSpot={(id) => selectEntity('spot', id)}
 										onSelectQuestType={(id) => selectEntity('questType', id)}
 									/>
-									{#if index < tasks.length - 1}
-										<div class:overlap={new Date(tasks[index + 1].start) < new Date(task.end)} class="break-time">
-											<span>{breakLabel(task, tasks[index + 1])}</span>
+									{#if shouldShowBreaks && index < tasks.length - 1}
+										{@const minutes = breakMinutes(task, tasks[index + 1])}
+										<div class:overlap={minutes < 0} class:zero={minutes === 0} class="break-time">
+											<span>{breakLabel(minutes)}</span>
 										</div>
 									{/if}
 								{/each}

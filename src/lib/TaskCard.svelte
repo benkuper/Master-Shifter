@@ -16,6 +16,7 @@
 		featured = false,
 		showDate = true,
 		timezone = 'Europe/Paris',
+		dayStartHour = 0,
 		onSelectVolunteer = () => {},
 		onSelectSpot = () => {},
 		onSelectQuestType = () => {}
@@ -24,6 +25,7 @@
 		featured?: boolean;
 		showDate?: boolean;
 		timezone?: string;
+		dayStartHour?: number;
 		onSelectVolunteer?: (id: string) => void;
 		onSelectSpot?: (id: string) => void;
 		onSelectQuestType?: (id: string) => void;
@@ -77,13 +79,13 @@
 			{#if showDate}
 				<div
 					class="task-card__date"
-					title={formatDay(task.start, timezone)}
+					title={formatDay(task.start, timezone, dayStartHour)}
 				>
 					<CalendarDays size={18} aria-hidden="true" />
 					<span
 						>{featured
-							? formatDay(task.start, timezone)
-							: formatCompactDate(task.start, timezone)}</span
+							? formatDay(task.start, timezone, dayStartHour)
+							: formatCompactDate(task.start, timezone, dayStartHour)}</span
 					>
 				</div>
 			{/if}
