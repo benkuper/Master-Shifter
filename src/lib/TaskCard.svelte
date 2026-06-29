@@ -34,16 +34,25 @@
 	);
 </script>
 
-<article class:featured class:past={task.state === 'past'} class:overlap={task.overlaps} class="task-card">
+<article
+	class:featured
+	class:past={task.state === "past"}
+	class:overlap={task.overlaps}
+	class="task-card"
+>
 	<div class="task-card__header">
 		<div class="task-card__headline">
-			<p class="task-card__eyebrow">
-				<span class="task-card__state">{featured ? headline : statusLabel(task.state)}</span>
-			</p>
+			{#if featured}
+				<p class="task-card__eyebrow">
+					<span class="task-card__state"
+						>{featured ? headline : statusLabel(task.state)}</span
+					>
+				</p>
+			{/if}
 			<h3>{task.title}</h3>
 
 			<div class="task-card__people">
-				<UsersRound size={18} aria-hidden="true" />
+				<!-- <UsersRound size={18} aria-hidden="true" /> -->
 				{#if task.volunteers.length > 0}
 					<div class="chips">
 						{#each task.volunteers as volunteer}
@@ -66,9 +75,16 @@
 
 		<div class="task-card__corner">
 			{#if showDate}
-				<div class="task-card__date" title={formatDay(task.start, timezone)}>
+				<div
+					class="task-card__date"
+					title={formatDay(task.start, timezone)}
+				>
 					<CalendarDays size={18} aria-hidden="true" />
-					<span>{featured ? formatDay(task.start, timezone) : formatCompactDate(task.start, timezone)}</span>
+					<span
+						>{featured
+							? formatDay(task.start, timezone)
+							: formatCompactDate(task.start, timezone)}</span
+					>
 				</div>
 			{/if}
 			<span>
@@ -76,13 +92,21 @@
 				{describeRange(task, timezone)}
 			</span>
 			{#if task.spot}
-				<button type="button" class="text-link" onclick={() => onSelectSpot(task.spot!.id)}>
+				<button
+					type="button"
+					class="text-link"
+					onclick={() => onSelectSpot(task.spot!.id)}
+				>
 					<MapPin size={17} aria-hidden="true" />
 					{task.spot.name}
 				</button>
 			{/if}
 			{#if task.questType}
-				<button type="button" class="text-link" onclick={() => onSelectQuestType(task.questType!.id)}>
+				<button
+					type="button"
+					class="text-link"
+					onclick={() => onSelectQuestType(task.questType!.id)}
+				>
 					<Tag size={17} aria-hidden="true" />
 					{task.questType.name}
 				</button>
@@ -91,7 +115,9 @@
 	</div>
 
 	{#if task.notes || task.mission?.description}
-		<p class="task-card__notes">{task.notes ?? task.mission?.description}</p>
+		<p class="task-card__notes">
+			{task.notes ?? task.mission?.description}
+		</p>
 	{/if}
 
 	{#if task.overlaps}
