@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev --host 0.0.0.0",
-		"build": "vite build",
+		"build": "vite build && node scripts/write-route-shells.mjs",
 		"preview": "vite preview --host 0.0.0.0",
 		"check": "svelte-kit sync && svelte-check --config ./svelte.config.js --tsconfig ./tsconfig.json",
 		"sync:data": "node scripts/sync-grist.mjs",
