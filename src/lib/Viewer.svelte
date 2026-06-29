@@ -320,7 +320,19 @@
 
 		const hours = Math.floor(totalMinutes / 60);
 		const minutes = totalMinutes % 60;
-		return minutes ? `${hours} h ${minutes}` : `${hours} h`;
+		return minutes ? `${hours} h ${minutes.toString().padStart(2, '0')}` : `${hours} h`;
+	}
+
+	function taskDurationMinutes(task: EnrichedTask) {
+		return Math.max(0, Math.round((new Date(task.end).getTime() - new Date(task.start).getTime()) / 60000));
+	}
+
+	function dayWorkMinutes(tasks: EnrichedTask[]) {
+		return tasks.reduce((total, task) => total + taskDurationMinutes(task), 0);
+	}
+
+	function daySummary(tasks: EnrichedTask[]) {
+		return `${tasks.length} quête${tasks.length > 1 ? 's' : ''} · ${formatDuration(dayWorkMinutes(tasks))}`;
 	}
 
 	function normalizeDayStartHour(value: number | undefined) {
@@ -500,7 +512,12 @@
 				{#if dayGroups.length > 0}
 					{#each dayGroups as [day, tasks]}
 						<section class="day-group" aria-label={day}>
-							<header>{day}</header>
+							<header>
+								<span>{day}</span>
+								<span class="day-group__summary" aria-label={`${tasks.length} quêtes, ${formatDuration(dayWorkMinutes(tasks))} travaillées`}>
+									{daySummary(tasks)}
+								</span>
+							</header>
 							<div class="day-group__tasks">
 								{#each tasks as task, index}
 									<TaskCard
