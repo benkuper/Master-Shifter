@@ -613,6 +613,45 @@ button {
 	gap: 10px;
 }
 
+.break-time {
+	display: grid;
+	grid-template-columns: minmax(24px, 1fr) auto minmax(24px, 1fr);
+	align-items: center;
+	gap: 10px;
+	margin: -2px 0;
+	color: var(--muted);
+	font-size: 0.78rem;
+	font-weight: 850;
+	text-transform: uppercase;
+}
+
+.break-time::before,
+.break-time::after {
+	height: 1px;
+	background: var(--line);
+	content: "";
+}
+
+.break-time span {
+	padding: 5px 9px;
+	border: 1px solid var(--line);
+	border-radius: 999px;
+	background: hsl(var(--surface-h) 28% 8% / 0.42);
+}
+
+.break-time.overlap {
+	color: var(--danger);
+}
+
+.break-time.overlap::before,
+.break-time.overlap::after {
+	background: rgba(255, 107, 107, 0.38);
+}
+
+.break-time.overlap span {
+	border-color: rgba(255, 107, 107, 0.42);
+}
+
 .share-panel {
 	grid-template-columns: minmax(0, 1fr) auto;
 	align-items: center;

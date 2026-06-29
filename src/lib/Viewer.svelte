@@ -23,7 +23,7 @@
 		normalizeForSearch
 	} from './schedule';
 	import TaskCard from './TaskCard.svelte';
-	import type { ProjectRegistry, ScheduleData, ViewMode } from './types';
+	import type { EnrichedTask, ProjectRegistry, ScheduleData, ViewMode } from './types';
 	import QRCode from 'qrcode';
 
 	let { projectSlug = '' } = $props<{ projectSlug?: string }>();
@@ -303,6 +303,21 @@
 		});
 	}
 
+	function breakLabel(previousTask: EnrichedTask, nextTask: EnrichedTask) {
+		const minutes = Math.round((new Date(nextTask.start).getTime() - new Date(previousTask.end).getTime()) / 60000);
+		if (minutes === 0) return 'Pause 0 min';
+		if (minutes < 0) return `Chevauchement ${formatDuration(Math.abs(minutes))}`;
+		return `Pause ${formatDuration(minutes)}`;
+	}
+
+	function formatDuration(totalMinutes: number) {
+		if (totalMinutes < 60) return `${totalMinutes} min`;
+
+		const hours = Math.floor(totalMinutes / 60);
+		const minutes = totalMinutes % 60;
+		return minutes ? `${hours} h ${minutes}` : `${hours} h`;
+	}
+
 	function projectTheme(seed: string, projectRegistry: ProjectRegistry | null) {
 		return THEME_PALETTE[resolveThemeIndex(seed, projectRegistry)];
 	}
@@ -474,7 +489,7 @@
 						<section class="day-group" aria-label={day}>
 							<header>{day}</header>
 							<div class="day-group__tasks">
-								{#each tasks as task}
+								{#each tasks as task, index}
 									<TaskCard
 										{task}
 										showDate={false}
@@ -483,6 +498,11 @@
 										onSelectSpot={(id) => selectEntity('spot', id)}
 										onSelectQuestType={(id) => selectEntity('questType', id)}
 									/>
+									{#if index < tasks.length - 1}
+										<div class:overlap={new Date(tasks[index + 1].start) < new Date(task.end)} class="break-time">
+											<span>{breakLabel(task, tasks[index + 1])}</span>
+										</div>
+									{/if}
 								{/each}
 							</div>
 						</section>
