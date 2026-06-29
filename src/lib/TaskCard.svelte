@@ -60,16 +60,13 @@
 					{task.spot.name}
 				</button>
 			{/if}
+			{#if task.questType}
+				<button type="button" class="text-link" onclick={() => onSelectQuestType(task.questType!.id)}>
+					<Tag size={17} aria-hidden="true" />
+					{task.questType.name}
+				</button>
+			{/if}
 		</div>
-	</div>
-
-	<div class="task-card__meta">
-		{#if task.questType}
-			<button type="button" class="text-link" onclick={() => onSelectQuestType(task.questType!.id)}>
-				<Tag size={17} aria-hidden="true" />
-				{task.questType.name}
-			</button>
-		{/if}
 	</div>
 
 	{#if featured && (task.notes || task.mission?.description)}
