@@ -4,7 +4,7 @@
 	"name": "Aurillac",
 	"period": "19 août - 22 août 2026",
 	"description": "Planning synchronisé depuis Grist.",
-	"updatedAt": "2026-06-29T11:04:29.204Z",
+	"updatedAt": "2026-06-29T15:47:27.567Z",
 	"timezone": "Europe/Paris",
 	"dayStartHour": 5,
 	"source": {
@@ -137,7 +137,7 @@
 	"missions": [
 		{
 			"id": "1",
-			"name": "🧹 Clean Pouet",
+			"name": "🧹 Clean PouetPouet",
 			"type": "Clean",
 			"spotId": "1",
 			"questTypeId": "1"
@@ -716,7 +716,7 @@
 		},
 		{
 			"id": "41",
-			"title": "🧹 Clean Pouet",
+			"title": "🧹 Clean PouetPouet",
 			"start": "2026-08-19T07:00:00.000Z",
 			"end": "2026-08-19T09:00:00.000Z",
 			"volunteerIds": [
@@ -729,7 +729,7 @@
 		},
 		{
 			"id": "42",
-			"title": "🧹 Clean Pouet",
+			"title": "🧹 Clean PouetPouet",
 			"start": "2026-08-19T09:00:00.000Z",
 			"end": "2026-08-19T11:00:00.000Z",
 			"volunteerIds": [
@@ -742,7 +742,7 @@
 		},
 		{
 			"id": "43",
-			"title": "🧹 Clean Pouet",
+			"title": "🧹 Clean PouetPouet",
 			"start": "2026-08-20T07:00:00.000Z",
 			"end": "2026-08-20T09:00:00.000Z",
 			"volunteerIds": [
@@ -755,7 +755,7 @@
 		},
 		{
 			"id": "44",
-			"title": "🧹 Clean Pouet",
+			"title": "🧹 Clean PouetPouet",
 			"start": "2026-08-20T09:00:00.000Z",
 			"end": "2026-08-20T11:00:00.000Z",
 			"volunteerIds": [
@@ -768,7 +768,7 @@
 		},
 		{
 			"id": "45",
-			"title": "🧹 Clean Pouet",
+			"title": "🧹 Clean PouetPouet",
 			"start": "2026-08-21T07:00:00.000Z",
 			"end": "2026-08-21T09:00:00.000Z",
 			"volunteerIds": [
@@ -781,7 +781,7 @@
 		},
 		{
 			"id": "46",
-			"title": "🧹 Clean Pouet",
+			"title": "🧹 Clean PouetPouet",
 			"start": "2026-08-21T09:00:00.000Z",
 			"end": "2026-08-21T11:00:00.000Z",
 			"volunteerIds": [
@@ -794,7 +794,7 @@
 		},
 		{
 			"id": "47",
-			"title": "🧹 Clean Pouet",
+			"title": "🧹 Clean PouetPouet",
 			"start": "2026-08-22T07:00:00.000Z",
 			"end": "2026-08-22T09:00:00.000Z",
 			"volunteerIds": [
@@ -807,7 +807,7 @@
 		},
 		{
 			"id": "48",
-			"title": "🧹 Clean Pouet",
+			"title": "🧹 Clean PouetPouet",
 			"start": "2026-08-22T09:00:00.000Z",
 			"end": "2026-08-22T11:00:00.000Z",
 			"volunteerIds": [
