@@ -36,11 +36,32 @@
 
 <article class:featured class:past={task.state === 'past'} class:overlap={task.overlaps} class="task-card">
 	<div class="task-card__header">
-		<div>
+		<div class="task-card__headline">
 			<p class="task-card__eyebrow">
 				<span class="task-card__state">{featured ? headline : statusLabel(task.state)}</span>
 			</p>
 			<h3>{task.title}</h3>
+
+			<div class="task-card__people">
+				<UsersRound size={18} aria-hidden="true" />
+				{#if task.volunteers.length > 0}
+					<div class="chips">
+						{#each task.volunteers as volunteer}
+							<button
+								type="button"
+								class="chip"
+								title={volunteer.fullName ?? volunteer.name}
+								onclick={() => onSelectVolunteer(volunteer.id)}
+							>
+								<UserRound size={14} aria-hidden="true" />
+								{volunteer.name}
+							</button>
+						{/each}
+					</div>
+				{:else}
+					<span class="muted">Personne assignée</span>
+				{/if}
+			</div>
 		</div>
 
 		<div class="task-card__corner">
@@ -69,37 +90,16 @@
 		</div>
 	</div>
 
-	{#if featured && (task.notes || task.mission?.description)}
+	{#if task.notes || task.mission?.description}
 		<p class="task-card__notes">{task.notes ?? task.mission?.description}</p>
 	{/if}
 
-	<div class="task-card__footer">
-		<div class="task-card__people">
-			<UsersRound size={18} aria-hidden="true" />
-			{#if task.volunteers.length > 0}
-				<div class="chips">
-					{#each task.volunteers as volunteer}
-						<button
-							type="button"
-							class="chip"
-							title={volunteer.fullName ?? volunteer.name}
-							onclick={() => onSelectVolunteer(volunteer.id)}
-						>
-							<UserRound size={14} aria-hidden="true" />
-							{volunteer.name}
-						</button>
-					{/each}
-				</div>
-			{:else}
-				<span class="muted">Personne assignée</span>
-			{/if}
-		</div>
-
-		{#if task.overlaps}
+	{#if task.overlaps}
+		<div class="task-card__footer">
 			<span class="task-card__warning" title="Chevauchement détecté">
 				<AlertTriangle size={17} aria-hidden="true" />
 				Conflit
 			</span>
-		{/if}
-	</div>
+		</div>
+	{/if}
 </article>

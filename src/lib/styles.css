@@ -498,6 +498,12 @@ button {
 	color: var(--accent-strong);
 }
 
+.task-card__headline {
+	display: grid;
+	gap: 9px;
+	min-width: 0;
+}
+
 .task-card h3 {
 	font-size: clamp(1.15rem, 2vw, 1.85rem);
 }
