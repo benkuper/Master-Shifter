@@ -41,6 +41,7 @@ Si tu utilises un domaine custom ou une autre base, ajoute une variable GitHub A
 Les sous-URLs de projet sont du type :
 
 - `/demo`
+- `/demo/calendrier` pour la vue calendrier filtrable
 - `/mon-festival`
 - `/ccpl-2026`
 - `/all` pour la liste des projets

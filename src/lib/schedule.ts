@@ -52,6 +52,24 @@ export function formatCompactDate(value: string, timezone = 'Europe/Paris', dayS
 	}).format(shiftForDayStart(value, dayStartHour));
 }
 
+export function calendarDayKey(
+	value: string | Date,
+	timezone = 'Europe/Paris',
+	dayStartHour = 0
+): string {
+	const date = shiftForDayStart(value, dayStartHour);
+	const parts = new Intl.DateTimeFormat('en-CA', {
+		year: 'numeric',
+		month: '2-digit',
+		day: '2-digit',
+		timeZone: timezone
+	}).formatToParts(date);
+	const part = (type: Intl.DateTimeFormatPartTypes) =>
+		parts.find((item) => item.type === type)?.value ?? '';
+
+	return `${part('year')}-${part('month')}-${part('day')}`;
+}
+
 export function describeRange(task: Task, timezone = 'Europe/Paris'): string {
 	return `${formatTime(task.start, timezone)} - ${formatTime(task.end, timezone)}`;
 }
@@ -199,6 +217,6 @@ export function minutesUntil(task: EnrichedTask, now = new Date()): string {
 	return days === 1 ? 'demain' : `dans ${days} jours`;
 }
 
-function shiftForDayStart(value: string, dayStartHour: number): Date {
+function shiftForDayStart(value: string | Date, dayStartHour: number): Date {
 	return new Date(new Date(value).getTime() - dayStartHour * 60 * 60 * 1000);
 }

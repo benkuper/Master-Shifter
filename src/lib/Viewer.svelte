@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 	import {
+		CalendarDays,
 		CalendarClock,
 		History,
 		MapPin,
@@ -22,6 +23,7 @@
 		groupByDay,
 		normalizeForSearch
 	} from './schedule';
+	import { projectTheme, themeStyle as getThemeStyle } from './theme';
 	import TaskCard from './TaskCard.svelte';
 	import type { EnrichedTask, ProjectRegistry, ScheduleData, ViewMode } from './types';
 	import QRCode from 'qrcode';
@@ -34,21 +36,6 @@
 		{ id: 'questType', label: 'Type de quête', allLabel: 'Tous les types', icon: Tag },
 		{ id: 'all', label: 'Tout', allLabel: 'Tout le planning', icon: UsersRound }
 	];
-
-	const THEME_PALETTE = [
-		{ primary: 166, secondary: 28, surface: 172 },
-		{ primary: 322, secondary: 190, surface: 318 },
-		{ primary: 38, secondary: 214, surface: 32 },
-		{ primary: 214, secondary: 54, surface: 220 },
-		{ primary: 286, secondary: 96, surface: 280 },
-		{ primary: 96, secondary: 344, surface: 104 },
-		{ primary: 18, secondary: 188, surface: 12 },
-		{ primary: 252, secondary: 54, surface: 248 },
-		{ primary: 190, secondary: 322, surface: 190 },
-		{ primary: 344, secondary: 166, surface: 350 },
-		{ primary: 54, secondary: 252, surface: 48 },
-		{ primary: 132, secondary: 286, surface: 136 }
-	] as const;
 
 	let registry = $state<ProjectRegistry | null>(null);
 	let project = $state<ScheduleData | null>(null);
@@ -80,9 +67,7 @@
 	let shouldShowBreaks = $derived(mode === 'volunteer' && Boolean(selectedId));
 	let pastCount = $derived(allTasks.filter((task) => task.state === 'past').length);
 	let theme = $derived(projectTheme(loadedSlug || project?.slug || projectSlug || 'master-shifter', registry));
-	let themeStyle = $derived(
-		`--accent-h:${theme.primary};--accent-2-h:${theme.secondary};--surface-h:${theme.surface};`
-	);
+	let themeStyle = $derived(getThemeStyle(theme));
 
 	onMount(() => {
 		const timer = window.setInterval(() => {
@@ -342,44 +327,6 @@
 		return Number.isFinite(hour) ? hour : 0;
 	}
 
-	function projectTheme(seed: string, projectRegistry: ProjectRegistry | null) {
-		return THEME_PALETTE[resolveThemeIndex(seed, projectRegistry)];
-	}
-
-	function resolveThemeIndex(seed: string, projectRegistry: ProjectRegistry | null) {
-		const sortedSlugs = [...(projectRegistry?.projects.map((item) => item.slug).filter(Boolean) ?? [])].sort(
-			(a, b) => a.localeCompare(b)
-		);
-		const usedIndexes = new Set<number>();
-
-		for (const slug of sortedSlugs) {
-			const preferredIndex = hashString(slug) % THEME_PALETTE.length;
-			const index = findAvailableThemeIndex(preferredIndex, usedIndexes);
-
-			if (slug === seed) return index;
-			usedIndexes.add(index);
-		}
-
-		return hashString(seed) % THEME_PALETTE.length;
-	}
-
-	function findAvailableThemeIndex(preferredIndex: number, usedIndexes: Set<number>) {
-		for (let offset = 0; offset < THEME_PALETTE.length; offset += 1) {
-			const index = (preferredIndex + offset * 5) % THEME_PALETTE.length;
-			if (!usedIndexes.has(index)) return index;
-		}
-
-		return preferredIndex;
-	}
-
-	function hashString(value: string) {
-		let hash = 2166136261;
-		for (const char of value) {
-			hash ^= char.charCodeAt(0);
-			hash = Math.imul(hash, 16777619);
-		}
-		return Math.abs(hash);
-	}
 </script>
 
 <svelte:head>
@@ -424,6 +371,11 @@
 					<QrCode size={18} aria-hidden="true" />
 					<span>Partager</span>
 				</button>
+
+				<a class="share-link" href={`${base}/${project.slug}/calendrier`.replace(/\/+/g, '/')}>
+					<CalendarDays size={18} aria-hidden="true" />
+					<span>Calendrier</span>
+				</a>
 
 				<button type="button" class="icon-button print-button" title="Imprimer" onclick={printPage}>
 					<Printer size={19} aria-hidden="true" />

@@ -17,6 +17,7 @@ for (const project of registry.projects ?? []) {
 	if (!project.slug) continue;
 
 	writeRouteShell(project.slug);
+	writeRouteShell(`${project.slug}/calendrier`);
 	writeRouteShell(`${project.slug}/update`);
 }
 
