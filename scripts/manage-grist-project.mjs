@@ -78,11 +78,9 @@ function removeProject() {
 		docId ? project.docId === docId : project.slug === targetSlug
 	);
 	if (index === -1) {
-		throw new Error(
-			docId
-				? `No configured project uses Grist document ${docId}.`
-				: `No configured project uses slug ${targetSlug}.`
-		);
+		const target = docId ? `Grist document ${docId}` : `slug ${targetSlug}`;
+		console.log(`No configured project uses ${target}; it is already absent.`);
+		return;
 	}
 
 	const [removed] = config.projects.splice(index, 1);
