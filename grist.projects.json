@@ -1,4 +1,22 @@
 {
-	"defaultProject": "demo",
-	"projects": []
+	"defaultProject": "aurillac",
+	"projects": [
+		{
+			"slug": "aurillac",
+			"name": "Aurillac",
+			"enabled": true,
+			"docId": "meMnMKigJo2gJ8JP1V8AwX",
+			"apiBase": "https://docs.getgrist.com/api",
+			"solutionId": 1,
+			"description": "Planning synchronise depuis Grist.",
+			"tables": {
+				"spots": "Lieux",
+				"questTypes": "Types_de_quetes",
+				"quests": "Quetes",
+				"volunteers": "Benevoles",
+				"assignments": "Assignations",
+				"info": "Infos_generales"
+			}
+		}
+	]
 }
