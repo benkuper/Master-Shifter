@@ -188,6 +188,27 @@ button {
 	overflow-wrap: anywhere;
 }
 
+.status-message .text-link {
+	margin-left: auto;
+	white-space: nowrap;
+}
+
+.spinning {
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.spinning {
+		animation: none;
+	}
+}
+
 .field-help {
 	margin-top: -8px !important;
 	font-size: 0.88rem;

@@ -1,12 +1,22 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { ArrowUpRight, CheckCircle2, Database, Plus, RefreshCw, Trash2 } from '@lucide/svelte';
+	import { ArrowUpRight, CheckCircle2, Database, ExternalLink, Plus, RefreshCw, Trash2 } from '@lucide/svelte';
 	import { onMount } from 'svelte';
 	import type { ProjectRegistry, ProjectSummary } from './types';
 
 	const REPOSITORY = 'benkuper/Master-Shifter';
 	const WORKFLOW = 'deploy.yml';
 	const TOKEN_STORAGE_KEY = 'master-shifter-github-token';
+	const RUN_DISCOVERY_TIMEOUT = 60_000;
+	const RUN_COMPLETION_TIMEOUT = 10 * 60_000;
+	const POLL_INTERVAL = 2_500;
+
+	type WorkflowRun = {
+		id: number;
+		status: 'queued' | 'in_progress' | 'completed';
+		conclusion: string | null;
+		html_url: string;
+	};
 
 	let registry = $state<ProjectRegistry | null>(null);
 	let status = $state<'loading' | 'ready' | 'error'>('loading');
@@ -17,6 +27,7 @@
 	let managementStatus = $state<'ready' | 'submitting' | 'success' | 'error'>('ready');
 	let managementMessage = $state('');
 	let deletingSlug = $state('');
+	let managementRunUrl = $state('');
 
 	onMount(() => {
 		token = window.localStorage.getItem(TOKEN_STORAGE_KEY) ?? '';
@@ -24,10 +35,10 @@
 		void loadProjects();
 	});
 
-	async function loadProjects() {
-		status = 'loading';
+	async function loadProjects(fresh = false) {
+		if (!fresh) status = 'loading';
 		try {
-			const response = await fetch(`${base}/data/projects.json`);
+			const response = await fetch(`${base}/data/projects.json?v=${Date.now()}`, { cache: 'no-store' });
 			if (!response.ok) throw new Error(`Impossible de charger les projets (${response.status})`);
 
 			registry = (await response.json()) as ProjectRegistry;
@@ -35,6 +46,7 @@
 		} catch (error) {
 			status = 'error';
 			errorMessage = error instanceof Error ? error.message : 'Erreur inconnue';
+			if (fresh) throw error;
 		}
 	}
 
@@ -54,8 +66,9 @@
 		}
 
 		managementStatus = 'submitting';
-		managementMessage = '';
+		managementMessage = 'Envoi de la demande à GitHub…';
 		deletingSlug = '';
+		managementRunUrl = '';
 
 		try {
 			await dispatchWorkflow({
@@ -63,9 +76,11 @@
 				document_id: documentId.trim(),
 				force_sync: 'true'
 			});
+			managementMessage = 'Déploiement terminé. Actualisation de la liste…';
+			await loadProjects(true);
 			documentId = '';
 			managementStatus = 'success';
-			managementMessage = 'Ajout lancé. Le projet sera détecté, synchronisé et publié automatiquement.';
+			managementMessage = 'Projet ajouté et liste actualisée.';
 		} catch (error) {
 			managementStatus = 'error';
 			managementMessage = error instanceof Error ? error.message : 'Erreur inconnue';
@@ -76,8 +91,9 @@
 		if (!window.confirm(`Supprimer « ${project.name} » et ses données publiées ?`)) return;
 
 		managementStatus = 'submitting';
-		managementMessage = '';
+		managementMessage = 'Envoi de la demande à GitHub…';
 		deletingSlug = project.slug;
+		managementRunUrl = '';
 
 		try {
 			await dispatchWorkflow({
@@ -85,8 +101,10 @@
 				project: project.slug,
 				force_sync: 'true'
 			});
+			managementMessage = 'Déploiement terminé. Actualisation de la liste…';
+			await loadProjects(true);
 			managementStatus = 'success';
-			managementMessage = `Suppression de « ${project.name} » lancée. La liste sera actualisée après le déploiement.`;
+			managementMessage = `« ${project.name} » a été supprimé et la liste est à jour.`;
 		} catch (error) {
 			managementStatus = 'error';
 			managementMessage = error instanceof Error ? error.message : 'Erreur inconnue';
@@ -97,6 +115,7 @@
 
 	async function dispatchWorkflow(inputs: Record<string, string>) {
 		if (!token.trim()) throw new Error('Token GitHub manquant.');
+		const knownRunIds = new Set((await workflowRuns()).map((run) => run.id));
 
 		const response = await fetch(`https://api.github.com/repos/${REPOSITORY}/actions/workflows/${WORKFLOW}/dispatches`, {
 			method: 'POST',
@@ -113,6 +132,65 @@
 
 		if (rememberToken) window.localStorage.setItem(TOKEN_STORAGE_KEY, token.trim());
 		else window.localStorage.removeItem(TOKEN_STORAGE_KEY);
+
+		managementMessage = 'Demande reçue. Démarrage de GitHub Actions…';
+		const run = await waitForNewRun(knownRunIds);
+		managementRunUrl = run.html_url;
+		const completedRun = await waitForRunCompletion(run);
+
+		if (completedRun.conclusion !== 'success') {
+			throw new Error(`Le workflow GitHub s’est terminé avec le statut « ${completedRun.conclusion ?? 'inconnu'} ».`);
+		}
+	}
+
+	async function workflowRuns() {
+		const response = await githubFetch(
+			`/actions/workflows/${WORKFLOW}/runs?event=workflow_dispatch&branch=main&per_page=10`
+		);
+		const payload = (await response.json()) as { workflow_runs?: WorkflowRun[] };
+		return payload.workflow_runs ?? [];
+	}
+
+	async function waitForNewRun(knownRunIds: Set<number>) {
+		const deadline = Date.now() + RUN_DISCOVERY_TIMEOUT;
+		while (Date.now() < deadline) {
+			const run = (await workflowRuns()).find((candidate) => !knownRunIds.has(candidate.id));
+			if (run) return run;
+			await delay(POLL_INTERVAL);
+		}
+		throw new Error('GitHub a accepté la demande, mais le nouveau workflow reste introuvable. Consulte Actions.');
+	}
+
+	async function waitForRunCompletion(initialRun: WorkflowRun) {
+		const deadline = Date.now() + RUN_COMPLETION_TIMEOUT;
+		let run = initialRun;
+
+		while (Date.now() < deadline) {
+			if (run.status === 'completed') return run;
+			managementMessage = run.status === 'queued' ? 'Workflow en attente…' : 'Synchronisation et déploiement en cours…';
+			await delay(POLL_INTERVAL);
+			const response = await githubFetch(`/actions/runs/${run.id}`);
+			run = (await response.json()) as WorkflowRun;
+		}
+
+		throw new Error('Le workflow prend plus de dix minutes. Consulte Actions pour connaître son état.');
+	}
+
+	async function githubFetch(path: string) {
+		const response = await fetch(`https://api.github.com/repos/${REPOSITORY}${path}`, {
+			cache: 'no-store',
+			headers: {
+				Accept: 'application/vnd.github+json',
+				Authorization: `Bearer ${token.trim()}`,
+				'X-GitHub-Api-Version': '2022-11-28'
+			}
+		});
+		if (!response.ok) throw new Error(await githubErrorMessage(response));
+		return response;
+	}
+
+	function delay(milliseconds: number) {
+		return new Promise((resolve) => window.setTimeout(resolve, milliseconds));
 	}
 
 	async function githubErrorMessage(response: Response) {
@@ -241,13 +319,32 @@
 				</button>
 			</div>
 
-			{#if managementStatus === 'success'}
+			{#if managementStatus === 'submitting'}
+				<p class="status-message" aria-live="polite">
+					<RefreshCw class="spinning" size={18} aria-hidden="true" />
+					<span>{managementMessage}</span>
+					{#if managementRunUrl}
+						<a class="text-link" href={managementRunUrl} target="_blank" rel="noreferrer">
+							<ExternalLink size={15} aria-hidden="true" />
+							<span>Voir le run</span>
+						</a>
+					{/if}
+				</p>
+			{:else if managementStatus === 'success'}
 				<p class="status-message status-message--success">
 					<CheckCircle2 size={18} aria-hidden="true" />
 					<span>{managementMessage}</span>
+					{#if managementRunUrl}
+						<a class="text-link" href={managementRunUrl} target="_blank" rel="noreferrer">Voir le run</a>
+					{/if}
 				</p>
 			{:else if managementStatus === 'error'}
-				<p class="status-message status-message--error">{managementMessage}</p>
+				<p class="status-message status-message--error">
+					<span>{managementMessage}</span>
+					{#if managementRunUrl}
+						<a class="text-link" href={managementRunUrl} target="_blank" rel="noreferrer">Voir le run</a>
+					{/if}
+				</p>
 			{/if}
 		</form>
 	</section>

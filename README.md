@@ -73,6 +73,8 @@ La page `/all` permet aussi de gerer les projets :
 - **Ajouter** verifie que le document utilise les tables Master Shifter, detecte son nom, son slug et sa solution active, puis synchronise et publie le projet ;
 - **Supprimer** sur une carte retire sa configuration et ses donnees generees, puis republie le site.
 
+L'interface suit le workflow GitHub Actions jusqu'a la fin du deploiement, puis recharge automatiquement la liste sans utiliser la copie en cache.
+
 Une URL complete de document Grist peut etre collee a la place de l'ID. La cle Grist reste dans GitHub Actions et n'est jamais envoyee au navigateur.
 
 Comme GitHub Pages est statique et public, ces pages demandent un token GitHub cote navigateur. Utilise un token personnel avec permission `Actions: write` sur ce depot.
