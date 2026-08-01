@@ -188,6 +188,11 @@ button {
 	overflow-wrap: anywhere;
 }
 
+.field-help {
+	margin-top: -8px !important;
+	font-size: 0.88rem;
+}
+
 .selector-field option,
 .project-select option {
 	background: hsl(var(--surface-h) 22% 15%);
@@ -316,6 +321,12 @@ button {
 	color: var(--accent-strong);
 }
 
+.project-manager__fields {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+	gap: 12px;
+}
+
 .eyebrow {
 	margin: 0 0 4px;
 	color: var(--accent-strong);
@@ -418,6 +429,26 @@ button {
 	color: var(--text);
 	font-weight: 820;
 	text-decoration: none;
+}
+
+.danger-action {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 7px;
+	min-height: 42px;
+	padding: 0 12px;
+	border: 1px solid hsl(0 85% 68% / 0.42);
+	border-radius: 8px;
+	background: hsl(0 72% 48% / 0.16);
+	color: #ffb4b4;
+	font-weight: 820;
+	cursor: pointer;
+}
+
+button:disabled {
+	opacity: 0.58;
+	cursor: wait;
 }
 
 .task-card {
@@ -744,6 +775,10 @@ button {
 }
 
 @media (max-width: 760px) {
+	.project-manager__fields {
+		grid-template-columns: 1fr;
+	}
+
 	.app-shell {
 		padding: 10px;
 	}

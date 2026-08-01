@@ -9,6 +9,7 @@
 		"preview": "vite preview --host 0.0.0.0",
 		"check": "svelte-kit sync && svelte-check --config ./svelte.config.js --tsconfig ./tsconfig.json",
 		"sync:data": "node scripts/sync-grist.mjs",
+		"manage:projects": "node scripts/manage-grist-project.mjs",
 		"inspect:grist": "node scripts/inspect-grist.mjs",
 		"hook:sync": "node scripts/dispatch-sync.mjs"
 	},

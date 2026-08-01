@@ -53,33 +53,42 @@
 		errorMessage = '';
 
 		try {
-			const response = await fetch(`https://api.github.com/repos/${REPOSITORY}/actions/workflows/${WORKFLOW}/dispatches`, {
-				method: 'POST',
-				headers: {
-					Accept: 'application/vnd.github+json',
-					Authorization: `Bearer ${token.trim()}`,
-					'Content-Type': 'application/json',
-					'X-GitHub-Api-Version': '2022-11-28'
-				},
-				body: JSON.stringify({
-					ref: 'main',
-					inputs: {
-						force_sync: forceSync ? 'true' : 'false',
-						project: projectSlug
-					}
-				})
+			await dispatchWorkflow({
+				force_sync: forceSync ? 'true' : 'false',
+				project: projectSlug
 			});
-
-			if (!response.ok) throw new Error(await response.text());
-
-			if (rememberToken) window.localStorage.setItem(TOKEN_STORAGE_KEY, token.trim());
-			else window.localStorage.removeItem(TOKEN_STORAGE_KEY);
-
 			status = 'success';
 		} catch (error) {
 			status = 'error';
 			errorMessage = error instanceof Error ? error.message : 'Erreur inconnue';
 		}
+	}
+
+	async function dispatchWorkflow(inputs: Record<string, string>) {
+		const response = await fetch(`https://api.github.com/repos/${REPOSITORY}/actions/workflows/${WORKFLOW}/dispatches`, {
+			method: 'POST',
+			headers: {
+				Accept: 'application/vnd.github+json',
+				Authorization: `Bearer ${token.trim()}`,
+				'Content-Type': 'application/json',
+				'X-GitHub-Api-Version': '2022-11-28'
+			},
+			body: JSON.stringify({ ref: 'main', inputs })
+		});
+
+		if (!response.ok) {
+			const body = await response.text();
+			try {
+				const payload = JSON.parse(body) as { message?: string };
+				throw new Error(payload.message ? `GitHub: ${payload.message}` : `GitHub: erreur ${response.status}`);
+			} catch (error) {
+				if (error instanceof SyntaxError) throw new Error(body || `GitHub: erreur ${response.status}`);
+				throw error;
+			}
+		}
+
+		if (rememberToken) window.localStorage.setItem(TOKEN_STORAGE_KEY, token.trim());
+		else window.localStorage.removeItem(TOKEN_STORAGE_KEY);
 	}
 </script>
 

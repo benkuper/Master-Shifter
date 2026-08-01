@@ -15,6 +15,20 @@ on:
         required: false
         default: ""
         type: string
+      project_action:
+        description: "Add or remove a Grist project before syncing"
+        required: false
+        default: "sync"
+        type: choice
+        options:
+          - sync
+          - add
+          - remove
+      document_id:
+        description: "Grist document ID used by add/remove"
+        required: false
+        default: ""
+        type: string
   repository_dispatch:
     types: [grist-updated]
 
@@ -35,6 +49,8 @@ jobs:
     env:
       GRIST_API_KEY: ${{ secrets.GRIST_API_KEY }}
       GRIST_PROJECT: ${{ inputs.project || github.event.client_payload.project || '' }}
+      PROJECT_ACTION: ${{ inputs.project_action || github.event.client_payload.project_action || 'sync' }}
+      GRIST_DOC_ID: ${{ inputs.document_id || github.event.client_payload.document_id || '' }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -44,6 +60,16 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+
+      - name: Configure project
+        if: env.PROJECT_ACTION == 'add' || env.PROJECT_ACTION == 'remove'
+        env:
+          PROJECT_SLUG: ${{ inputs.project || github.event.client_payload.project || '' }}
+        run: npm run manage:projects -- --action "$PROJECT_ACTION" --doc "$GRIST_DOC_ID" --project "$PROJECT_SLUG"
+
+      - name: Sync the full registry after project management
+        if: env.PROJECT_ACTION == 'add' || env.PROJECT_ACTION == 'remove'
+        run: echo "GRIST_PROJECT=" >> "$GITHUB_ENV"
 
       - name: Configure GitHub Pages base path
         shell: bash
@@ -69,7 +95,7 @@ jobs:
           FORCE_SYNC: ${{ inputs.force_sync || github.event.client_payload.force || 'false' }}
           EVENT_NAME: ${{ github.event_name }}
         run: |
-          if git diff --quiet -- static/data; then
+          if git diff --quiet -- grist.projects.json static/data; then
             data_changed=false
           else
             data_changed=true
@@ -86,14 +112,14 @@ jobs:
           echo "data_changed=$data_changed"
           echo "should_deploy=$should_deploy"
 
-      - name: Commit synced data
+      - name: Commit project configuration and synced data
         if: steps.decide.outputs.data_changed == 'true' && github.ref == 'refs/heads/main'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add static/data
-          git commit -m "Update Grist data [skip ci]"
+          git add grist.projects.json static/data
+          git commit -m "Update Grist projects and data [skip ci]"
           git push
 
       - if: steps.decide.outputs.should_deploy == 'true'
