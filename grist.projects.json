@@ -17,6 +17,24 @@
 				"assignments": "Assignations",
 				"info": "Infos_generales"
 			}
+		},
+		{
+			"slug": "c-est-par-la",
+			"name": "C'est par là",
+			"enabled": true,
+			"docId": "k5K19gPd4wzR",
+			"apiBase": "https://docs.getgrist.com/api",
+			"solutionId": 7,
+			"description": "Planning synchronise depuis Grist.",
+			"tables": {
+				"spots": "Lieux",
+				"questTypes": "Types_de_quetes",
+				"quests": "Quetes",
+				"volunteers": "Benevoles",
+				"assignments": "Assignations",
+				"solutions": "Solutions",
+				"info": "Infos_generales"
+			}
 		}
 	]
 }

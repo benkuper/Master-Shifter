@@ -21,6 +21,32 @@
 					"dataPath": "data/aurillac/solutions/solution-Mw.json"
 				}
 			]
+		},
+		{
+			"slug": "c-est-par-la",
+			"name": "C'est par là",
+			"period": "19 août - 22 août 2026",
+			"description": "Planning synchronise depuis Grist.",
+			"dataPath": "data/c-est-par-la/schedule.json",
+			"updatedAt": "2026-08-10T20:56:37.896Z",
+			"solutionId": 7,
+			"solutions": [
+				{
+					"id": 1,
+					"name": "Aperçu",
+					"dataPath": "data/c-est-par-la/solutions/solution-MQ.json"
+				},
+				{
+					"id": 6,
+					"name": "2026-08-10T18:26:11",
+					"dataPath": "data/c-est-par-la/solutions/solution-Ng.json"
+				},
+				{
+					"id": 7,
+					"name": "2026-08-10T22:52:30",
+					"dataPath": "data/c-est-par-la/solutions/solution-Nw.json"
+				}
+			]
 		}
 	]
 }
