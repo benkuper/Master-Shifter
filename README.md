@@ -66,12 +66,15 @@ Depuis GitHub : Actions -> Deploy GitHub Pages -> Run workflow.
 Depuis le site :
 
 - `/update` lance une mise a jour de tous les projets
-- `/<projet>/update` lance une mise a jour d'un seul projet
+- `/<projet>/edit` choisit sa solution puis lance sa mise a jour (`/<projet>/update` reste disponible)
 
 La page `/all` permet aussi de gerer les projets :
 
 - **Ajouter** verifie que le document utilise les tables Master Shifter, detecte son nom, son slug et sa solution active, puis synchronise et publie le projet ;
+- **Solution publiée** liste les valeurs distinctes de la colonne `Solution` d'`Assignations` et enregistre le choix dans la configuration partagée ;
 - **Supprimer** sur une carte retire sa configuration et ses donnees generees, puis republie le site.
+
+La même sélection est disponible sur `/<projet>/edit`. Une seule solution est exportée dans le planning public à chaque synchronisation ; changer de solution relance la synchronisation et le déploiement pour tous les visiteurs.
 
 L'interface suit le workflow GitHub Actions jusqu'a la fin du deploiement, puis recharge automatiquement la liste sans utiliser la copie en cache.
 

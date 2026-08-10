@@ -3,11 +3,22 @@
 	"projects": [
 		{
 			"slug": "aurillac",
-			"name": "Aurillac",
+			"name": "Bisou la porte",
 			"period": "19 août - 22 août 2026",
 			"description": "Planning synchronise depuis Grist.",
 			"dataPath": "data/aurillac/schedule.json",
-			"updatedAt": "2026-08-01T12:33:23.512Z"
+			"updatedAt": "2026-08-10T19:03:31.438Z",
+			"solutionId": 1,
+			"solutions": [
+				{
+					"id": 1,
+					"name": "Aperçu"
+				},
+				{
+					"id": 3,
+					"name": "2026-08-10T20:49:07"
+				}
+			]
 		}
 	]
 }

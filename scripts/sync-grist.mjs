@@ -47,7 +47,9 @@ for (const project of config.projects) {
 			description: project.description,
 			dataPath: project.dataPath,
 			updatedAt: staticSchedule?.updatedAt ?? existingSummary?.updatedAt ?? syncedAt,
-			accent: project.accent
+			accent: project.accent,
+			solutionId: staticSchedule?.solutionId ?? existingSummary?.solutionId ?? project.solutionId,
+			solutions: staticSchedule?.solutions ?? existingSummary?.solutions
 		});
 		continue;
 	}
@@ -79,7 +81,9 @@ for (const project of config.projects) {
 		description: schedule.description,
 		dataPath: `data/${schedule.slug}/schedule.json`,
 		updatedAt: schedule.updatedAt,
-		accent: project.accent
+		accent: project.accent,
+		solutionId: schedule.solutionId,
+		solutions: schedule.solutions
 	});
 }
 
@@ -139,16 +143,18 @@ async function syncProject(project, apiKey, syncedAt) {
 		questTypes: 'Types_de_quetes',
 		quests: 'Quetes',
 		assignments: 'Assignations',
+		solutions: 'Solutions',
 		info: 'Infos_generales',
 		...(project.tables ?? {})
 	};
 
-	const [volunteerRows, spotRows, questTypeRows, questRows, assignmentRows, infoRows] = await Promise.all([
+	const [volunteerRows, spotRows, questTypeRows, questRows, assignmentRows, solutionRows, infoRows] = await Promise.all([
 		fetchRecords(apiBase, project.docId, apiKey, tables.volunteers),
 		fetchRecords(apiBase, project.docId, apiKey, tables.spots),
 		fetchRecords(apiBase, project.docId, apiKey, tables.questTypes),
 		fetchRecords(apiBase, project.docId, apiKey, tables.quests),
 		fetchRecords(apiBase, project.docId, apiKey, tables.assignments),
+		fetchRecords(apiBase, project.docId, apiKey, tables.solutions).catch(() => []),
 		fetchRecords(apiBase, project.docId, apiKey, tables.info).catch(() => [])
 	]);
 
@@ -159,6 +165,23 @@ async function syncProject(project, apiKey, syncedAt) {
 	const spotById = new Map(spotRows.map((row) => [String(row.id), row]));
 	const typeById = new Map(questTypeRows.map((row) => [String(row.id), row]));
 	const questById = new Map(questRows.map((row) => [String(row.id), row]));
+	const solutionIds = [
+		...new Set(
+			assignmentRows
+				.map((row) => ref(solutionValue(row.fields)))
+				.filter((value) => value !== undefined)
+				.map(numericOrText)
+		)
+	].sort(compareSolutions);
+	const solutionById = new Map(solutionRows.map((row) => [String(row.id), row.fields ?? {}]));
+	const solutions = solutionIds.map((id) => {
+		const fields = solutionById.get(String(id)) ?? {};
+		return {
+			id,
+			name: text(fields.name) || text(fields.Display) || `Solution ${id}`
+		};
+	});
+	const solutionId = project.solutionId === undefined ? solutionIds.at(-1) : numericOrText(project.solutionId);
 
 	const volunteers = volunteerRows.map((row) => {
 		const fields = row.fields ?? {};
@@ -220,7 +243,7 @@ async function syncProject(project, apiKey, syncedAt) {
 	});
 
 	const tasks = assignmentRows
-		.filter((row) => project.solutionId === undefined || String(row.fields?.solution) === String(project.solutionId))
+		.filter((row) => solutionId === undefined || String(solutionValue(row.fields)) === String(solutionId))
 		.map((row) => {
 			const fields = row.fields ?? {};
 			const questId = ref(fields.initial_quest);
@@ -246,7 +269,7 @@ async function syncProject(project, apiKey, syncedAt) {
 				notes: text(typeFields.fiche_de_poste)
 			});
 		})
-		.filter((task) => task.start && task.end && task.volunteerIds.length > 0);
+		.filter((task) => task.start && task.end && (task.volunteerIds?.length ?? 0) > 0);
 
 	return {
 		schemaVersion: 1,
@@ -257,6 +280,8 @@ async function syncProject(project, apiKey, syncedAt) {
 		updatedAt: syncedAt,
 		timezone,
 		dayStartHour: info.day_start_time,
+		solutionId,
+		solutions,
 		source: {
 			type: 'grist',
 			tables
@@ -267,4 +292,27 @@ async function syncProject(project, apiKey, syncedAt) {
 		missions,
 		tasks
 	};
+}
+
+function solutionValue(fields = {}) {
+	const key = Object.keys(fields).find((name) => normalizeName(name) === 'solution');
+	return key ? fields[key] : undefined;
+}
+
+function numericOrText(value) {
+	const number = Number(value);
+	return Number.isFinite(number) ? number : String(value);
+}
+
+function compareSolutions(left, right) {
+	if (typeof left === 'number' && typeof right === 'number') return left - right;
+	return String(left).localeCompare(String(right), undefined, { numeric: true });
+}
+
+function normalizeName(value) {
+	return String(value ?? '')
+		.normalize('NFD')
+		.replace(/[\u0300-\u036f]/g, '')
+		.toLowerCase()
+		.replace(/[^a-z0-9]/g, '');
 }

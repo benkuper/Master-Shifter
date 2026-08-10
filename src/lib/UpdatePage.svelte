@@ -14,6 +14,7 @@
 	let token = $state('');
 	let rememberToken = $state(false);
 	let forceSync = $state(false);
+	let selectedSolution = $state('');
 	let status = $state<'loading' | 'ready' | 'submitting' | 'success' | 'error'>('loading');
 	let errorMessage = $state('');
 
@@ -35,6 +36,10 @@
 			if (!response.ok) throw new Error(`Impossible de charger les projets (${response.status})`);
 
 			registry = (await response.json()) as ProjectRegistry;
+			const loadedProject = projectSlug
+				? registry.projects.find((item) => item.slug === projectSlug)
+				: undefined;
+			selectedSolution = String(loadedProject?.solutionId ?? loadedProject?.solutions?.at(-1)?.id ?? '');
 			status = 'ready';
 		} catch (error) {
 			status = 'error';
@@ -53,9 +58,15 @@
 		errorMessage = '';
 
 		try {
+			const solutionChanged = Boolean(
+				projectSlug && selectedSolution && String(project?.solutionId ?? '') !== selectedSolution
+			);
 			await dispatchWorkflow({
 				force_sync: forceSync ? 'true' : 'false',
-				project: projectSlug
+				project: projectSlug,
+				...(solutionChanged
+					? { project_action: 'set-solution', solution_id: selectedSolution }
+					: {})
 			});
 			status = 'success';
 		} catch (error) {
@@ -128,6 +139,18 @@
 				/>
 			</label>
 
+			{#if projectSlug && project?.solutions?.length}
+				<label class="selector-field">
+					<span>Solution publiée</span>
+					<select bind:value={selectedSolution} disabled={status === 'submitting'}>
+						{#each project.solutions as solution}
+							<option value={String(solution.id)}>{solution.name}</option>
+						{/each}
+					</select>
+				</label>
+				<p class="field-help">Le changement est enregistré pour tout le monde lors de la mise à jour.</p>
+			{/if}
+
 			<label class="check-row">
 				<input type="checkbox" bind:checked={rememberToken} />
 				<span>Garder sur cet appareil</span>
@@ -141,7 +164,7 @@
 			<div class="update-card__actions">
 				<button type="submit" class="primary-action" disabled={status === 'submitting'}>
 					<RefreshCw size={18} aria-hidden="true" />
-					<span>{status === 'submitting' ? 'Update...' : 'Lancer update'}</span>
+					<span>{status === 'submitting' ? 'Update...' : (projectSlug && selectedSolution !== String(project?.solutionId ?? '') ? 'Enregistrer et mettre à jour' : 'Lancer update')}</span>
 				</button>
 				<a class="share-link" href={actionsUrl} target="_blank" rel="noreferrer">
 					<ExternalLink size={17} aria-hidden="true" />
@@ -152,7 +175,7 @@
 			{#if status === 'success'}
 				<p class="status-message status-message--success">
 					<CheckCircle2 size={18} aria-hidden="true" />
-					<span>Update lance. GitHub Actions va synchroniser Grist puis redeployer si besoin.</span>
+					<span>Mise à jour lancée. GitHub Actions va synchroniser Grist puis redéployer si besoin.</span>
 				</p>
 			{:else if status === 'error'}
 				<p class="status-message status-message--error">{errorMessage}</p>

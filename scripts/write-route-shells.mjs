@@ -19,6 +19,7 @@ for (const project of registry.projects ?? []) {
 	writeRouteShell(project.slug);
 	writeRouteShell(`${project.slug}/calendrier`);
 	writeRouteShell(`${project.slug}/update`);
+	writeRouteShell(`${project.slug}/edit`);
 }
 
 console.log(`Wrote route shell(s) for ${(registry.projects ?? []).length} project(s).`);

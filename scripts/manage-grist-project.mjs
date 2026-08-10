@@ -9,13 +9,14 @@ const outputRoot = resolve('static/data');
 const action = getArg('--action', process.env.PROJECT_ACTION || '').toLowerCase();
 const rawDocId = getArg('--doc', process.env.GRIST_DOC_ID || '');
 const targetSlug = getArg('--project', process.env.GRIST_PROJECT || '');
+const requestedSolution = getArg('--solution', process.env.GRIST_SOLUTION_ID || '');
 const apiBase = getArg('--api', process.env.GRIST_API_BASE || 'https://docs.getgrist.com/api');
 const apiKey = process.env.GRIST_API_KEY;
 const docId = rawDocId ? normalizeDocId(rawDocId) : '';
 const config = JSON.parse(readFileSync(configPath, 'utf8'));
 
-if (!['add', 'remove'].includes(action)) {
-	throw new Error('Use --action add or --action remove.');
+if (!['add', 'remove', 'set-solution'].includes(action)) {
+	throw new Error('Use --action add, --action remove or --action set-solution.');
 }
 
 if (action === 'add' && !docId) {
@@ -26,8 +27,13 @@ if (action === 'remove' && !docId && !targetSlug) {
 	throw new Error('Missing project. Use --doc <document-id> or --project <slug>.');
 }
 
+if (action === 'set-solution' && (!targetSlug || requestedSolution === '')) {
+	throw new Error('Missing project or solution. Use --project <slug> --solution <id>.');
+}
+
 if (action === 'add') await addProject();
-else removeProject();
+else if (action === 'remove') removeProject();
+else await setProjectSolution();
 
 writeFileSync(configPath, `${JSON.stringify(config, null, '\t')}\n`);
 
@@ -97,6 +103,36 @@ function removeProject() {
 	console.log(`Removed ${removed.name} (${removed.slug}) and its generated data.`);
 }
 
+async function setProjectSolution() {
+	if (!apiKey) throw new Error('GRIST_API_KEY is required to select a solution.');
+
+	const project = config.projects.find((candidate) => candidate.slug === targetSlug);
+	if (!project) throw new Error(`Project "${targetSlug}" was not found in ${configPath}.`);
+	if (project.staticOnly) throw new Error(`Project "${targetSlug}" is static and has no selectable Grist solution.`);
+
+	const assignmentsTable = project.tables?.assignments || 'Assignations';
+	const rows = await fetchRecords(project.apiBase || apiBase, project.docId, apiKey, assignmentsTable);
+	const availableSolutions = [
+		...new Set(
+			rows
+				.map((row) => ref(solutionValue(row.fields)))
+				.filter((value) => value !== undefined)
+				.map(numericOrText)
+		)
+	].sort(compareSolutions);
+	const solutionId = numericOrText(requestedSolution);
+
+	if (!availableSolutions.some((candidate) => String(candidate) === String(solutionId))) {
+		throw new Error(
+			`Solution "${requestedSolution}" is not available for "${targetSlug}". ` +
+				`Available solutions: ${availableSolutions.join(', ') || 'none'}.`
+		);
+	}
+
+	project.solutionId = solutionId;
+	console.log(`Selected solution ${solutionId} for ${project.name} (${project.slug}).`);
+}
+
 function detectTables(tables) {
 	const expected = {
 		spots: 'Lieux',
@@ -104,6 +140,7 @@ function detectTables(tables) {
 		quests: 'Quetes',
 		volunteers: 'Benevoles',
 		assignments: 'Assignations',
+		solutions: 'Solutions',
 		info: 'Infos_generales'
 	};
 	const byNormalizedId = new Map(tables.map((table) => [normalizeName(table.id), table.id]));
@@ -112,7 +149,7 @@ function detectTables(tables) {
 			.map(([role, expectedId]) => [role, byNormalizedId.get(normalizeName(expectedId))])
 			.filter(([, tableId]) => tableId)
 	);
-	const missing = Object.keys(expected).filter((role) => role !== 'info' && !detected[role]);
+	const missing = Object.keys(expected).filter((role) => !['info', 'solutions'].includes(role) && !detected[role]);
 
 	if (missing.length) {
 		const available = tables.map((table) => table.id).join(', ');
@@ -134,11 +171,16 @@ async function detectSolutionId(assignmentsTable, info) {
 
 	const rows = await fetchRecords(apiBase, docId, apiKey, assignmentsTable);
 	const solutions = [
-		...new Set(rows.map((row) => ref(row.fields?.solution)).filter((value) => value !== undefined))
+		...new Set(rows.map((row) => ref(solutionValue(row.fields))).filter((value) => value !== undefined))
 	];
 	if (!solutions.length) return undefined;
 
 	return solutions.map(numericOrText).sort(compareSolutions).at(-1);
+}
+
+function solutionValue(fields = {}) {
+	const key = Object.keys(fields).find((name) => normalizeName(name) === 'solution');
+	return key ? fields[key] : undefined;
 }
 
 function compareSolutions(left, right) {

@@ -1,4 +1,9 @@
 export type ViewMode = 'volunteer' | 'spot' | 'questType' | 'all';
+export type SolutionId = string | number;
+export type Solution = {
+	id: SolutionId;
+	name: string;
+};
 
 export type ProjectSummary = {
 	slug: string;
@@ -8,6 +13,8 @@ export type ProjectSummary = {
 	dataPath: string;
 	updatedAt?: string;
 	accent?: string;
+	solutionId?: SolutionId;
+	solutions?: Solution[];
 };
 
 export type ProjectRegistry = {
@@ -73,6 +80,8 @@ export type ScheduleData = {
 	updatedAt: string;
 	timezone?: string;
 	dayStartHour?: number;
+	solutionId?: SolutionId;
+	solutions?: Solution[];
 	source?: {
 		type: 'demo' | 'grist';
 		docId?: string;

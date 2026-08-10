@@ -27,6 +27,8 @@
 	let managementStatus = $state<'ready' | 'submitting' | 'success' | 'error'>('ready');
 	let managementMessage = $state('');
 	let deletingSlug = $state('');
+	let updatingSolutionSlug = $state('');
+	let selectedSolutions = $state<Record<string, string>>({});
 	let managementRunUrl = $state('');
 
 	onMount(() => {
@@ -42,6 +44,9 @@
 			if (!response.ok) throw new Error(`Impossible de charger les projets (${response.status})`);
 
 			registry = (await response.json()) as ProjectRegistry;
+			selectedSolutions = Object.fromEntries(
+				registry.projects.map((project) => [project.slug, String(project.solutionId ?? project.solutions?.at(-1)?.id ?? '')])
+			);
 			status = 'ready';
 		} catch (error) {
 			status = 'error';
@@ -54,8 +59,8 @@
 		return `${base}/${slug}`.replace(/\/+/g, '/');
 	}
 
-	function updateHref(slug: string) {
-		return `${base}/${slug}/update`.replace(/\/+/g, '/');
+	function editHref(slug: string) {
+		return `${base}/${slug}/edit`.replace(/\/+/g, '/');
 	}
 
 	async function addProject() {
@@ -110,6 +115,40 @@
 			managementMessage = error instanceof Error ? error.message : 'Erreur inconnue';
 		} finally {
 			deletingSlug = '';
+		}
+	}
+
+	async function setSolution(project: ProjectSummary) {
+		const solutionId = selectedSolutions[project.slug];
+		if (!solutionId) {
+			managementStatus = 'error';
+			managementMessage = `Choisis une solution pour « ${project.name} ».`;
+			return;
+		}
+		if (String(project.solutionId ?? '') === solutionId) return;
+
+		managementStatus = 'submitting';
+		managementMessage = `Enregistrement de la solution ${solutionId} pour « ${project.name} »…`;
+		deletingSlug = '';
+		updatingSolutionSlug = project.slug;
+		managementRunUrl = '';
+
+		try {
+			await dispatchWorkflow({
+				project_action: 'set-solution',
+				project: project.slug,
+				solution_id: solutionId,
+				force_sync: 'true'
+			});
+			managementMessage = 'Déploiement terminé. Actualisation de la liste…';
+			await loadProjects(true);
+			managementStatus = 'success';
+			managementMessage = `La solution ${solutionId} est maintenant publiée pour « ${project.name} ».`;
+		} catch (error) {
+			managementStatus = 'error';
+			managementMessage = error instanceof Error ? error.message : 'Erreur inconnue';
+		} finally {
+			updatingSolutionSlug = '';
 		}
 	}
 
@@ -248,14 +287,35 @@
 								<p>{project.description}</p>
 							{/if}
 						</div>
+						{#if project.solutions?.length}
+							<div class="solution-picker">
+								<label class="selector-field">
+									<span>Solution publiée</span>
+									<select bind:value={selectedSolutions[project.slug]} disabled={managementStatus === 'submitting'}>
+										{#each project.solutions as solution}
+											<option value={String(solution.id)}>{solution.name}</option>
+										{/each}
+									</select>
+								</label>
+								<button
+									type="button"
+									class="share-link"
+									disabled={managementStatus === 'submitting' || String(project.solutionId ?? '') === selectedSolutions[project.slug]}
+									onclick={() => void setSolution(project)}
+								>
+									<RefreshCw size={17} aria-hidden="true" />
+									<span>{updatingSolutionSlug === project.slug ? 'Publication…' : 'Publier'}</span>
+								</button>
+							</div>
+						{/if}
 						<div class="project-card__actions">
 							<a class="primary-action" href={projectHref(project.slug)}>
 								<ArrowUpRight size={18} aria-hidden="true" />
 								<span>Ouvrir</span>
 							</a>
-							<a class="share-link" href={updateHref(project.slug)}>
+							<a class="share-link" href={editHref(project.slug)}>
 								<RefreshCw size={17} aria-hidden="true" />
-								<span>Update</span>
+								<span>Éditer</span>
 							</a>
 							<button
 								type="button"
@@ -309,7 +369,7 @@
 			</label>
 
 			<p class="field-help">
-				Le nom, le slug, les tables et la solution sont détectés automatiquement depuis Grist.
+				Le nom, le slug, les tables et les solutions sont détectés automatiquement depuis Grist.
 			</p>
 
 			<div class="update-card__actions">

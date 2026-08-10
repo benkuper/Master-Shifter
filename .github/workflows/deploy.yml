@@ -16,7 +16,7 @@ on:
         default: ""
         type: string
       project_action:
-        description: "Add or remove a Grist project before syncing"
+        description: "Add/remove a Grist project or select its active solution before syncing"
         required: false
         default: "sync"
         type: choice
@@ -24,8 +24,14 @@ on:
           - sync
           - add
           - remove
+          - set-solution
       document_id:
         description: "Grist document ID used by add/remove"
+        required: false
+        default: ""
+        type: string
+      solution_id:
+        description: "Solution to publish when project_action is set-solution"
         required: false
         default: ""
         type: string
@@ -51,6 +57,7 @@ jobs:
       GRIST_PROJECT: ${{ inputs.project || github.event.client_payload.project || '' }}
       PROJECT_ACTION: ${{ inputs.project_action || github.event.client_payload.project_action || 'sync' }}
       GRIST_DOC_ID: ${{ inputs.document_id || github.event.client_payload.document_id || '' }}
+      GRIST_SOLUTION_ID: ${{ inputs.solution_id || github.event.client_payload.solution_id || '' }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -62,13 +69,13 @@ jobs:
       - run: npm ci
 
       - name: Configure project
-        if: env.PROJECT_ACTION == 'add' || env.PROJECT_ACTION == 'remove'
+        if: env.PROJECT_ACTION == 'add' || env.PROJECT_ACTION == 'remove' || env.PROJECT_ACTION == 'set-solution'
         env:
           PROJECT_SLUG: ${{ inputs.project || github.event.client_payload.project || '' }}
-        run: npm run manage:projects -- --action "$PROJECT_ACTION" --doc "$GRIST_DOC_ID" --project "$PROJECT_SLUG"
+        run: npm run manage:projects -- --action "$PROJECT_ACTION" --doc "$GRIST_DOC_ID" --project "$PROJECT_SLUG" --solution "$GRIST_SOLUTION_ID"
 
       - name: Sync the full registry after project management
-        if: env.PROJECT_ACTION == 'add' || env.PROJECT_ACTION == 'remove'
+        if: env.PROJECT_ACTION == 'add' || env.PROJECT_ACTION == 'remove' || env.PROJECT_ACTION == 'set-solution'
         run: echo "GRIST_PROJECT=" >> "$GITHUB_ENV"
 
       - name: Configure GitHub Pages base path
