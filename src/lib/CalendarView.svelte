@@ -24,7 +24,8 @@
 		normalizeForSearch
 	} from './schedule';
 	import { projectTheme, themeStyle as getThemeStyle } from './theme';
-	import type { EnrichedTask, ProjectRegistry, ScheduleData } from './types';
+	import { getPreviewSolutionId, solutionById } from './solutionPreview';
+	import type { EnrichedTask, ProjectRegistry, ScheduleData, SolutionPreviewData } from './types';
 
 	let { projectSlug = '' } = $props<{ projectSlug?: string }>();
 
@@ -46,6 +47,8 @@
 	let selectedSpots = $state<string[]>([]);
 	let selectedQuestTypes = $state<string[]>([]);
 	let assignmentFilter = $state<AssignmentFilter>('all');
+	let previewSolutionName = $state('');
+	let publicSolutionName = $state('');
 
 	let timezone = $derived(project?.timezone ?? 'Europe/Paris');
 	let dayStartHour = $derived(normalizeDayStartHour(project?.dayStartHour));
@@ -173,7 +176,23 @@
 				throw new Error(`Impossible de charger ${summary.name} (${projectResponse.status})`);
 			}
 
-			project = (await projectResponse.json()) as ScheduleData;
+			const publicProject = (await projectResponse.json()) as ScheduleData;
+			const previewId = getPreviewSolutionId(summary);
+			const previewSolution = previewId ? solutionById(summary, previewId) : undefined;
+			publicSolutionName = solutionById(summary, String(summary.solutionId ?? ''))?.name ?? '';
+
+			if (previewSolution?.dataPath && previewId !== String(summary.solutionId ?? '')) {
+				const previewResponse = await fetch(`${base}/${previewSolution.dataPath}`);
+				if (!previewResponse.ok) {
+					throw new Error(`Impossible de prévisualiser ${previewSolution.name} (${previewResponse.status})`);
+				}
+				const preview = (await previewResponse.json()) as SolutionPreviewData;
+				project = { ...publicProject, solutionId: preview.solutionId, tasks: preview.tasks };
+				previewSolutionName = previewSolution.name;
+			} else {
+				project = publicProject;
+				previewSolutionName = '';
+			}
 			status = 'ready';
 		} catch (error) {
 			status = 'error';
@@ -352,6 +371,12 @@
 				<span>sur {eventWindow.tasks.length} quête{eventWindow.tasks.length > 1 ? 's' : ''}</span>
 			</div>
 		</header>
+
+		{#if previewSolutionName}
+			<p class="preview-notice calendar-preview-notice">
+				Previewing {previewSolutionName} (public solution: {publicSolutionName}).
+			</p>
+		{/if}
 
 		<section class="filter-panel" aria-label="Filtres du calendrier">
 			<div class="filter-panel__heading">

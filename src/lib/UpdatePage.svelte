@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 	import { CheckCircle2, ExternalLink, RefreshCw, ShieldCheck } from '@lucide/svelte';
 	import { onMount } from 'svelte';
+	import { getPreviewSolutionId, setPreviewSolutionId, solutionById } from './solutionPreview';
 	import type { ProjectRegistry, ProjectSummary } from './types';
 
 	const REPOSITORY = 'benkuper/Master-Shifter';
@@ -39,12 +40,23 @@
 			const loadedProject = projectSlug
 				? registry.projects.find((item) => item.slug === projectSlug)
 				: undefined;
-			selectedSolution = String(loadedProject?.solutionId ?? loadedProject?.solutions?.at(-1)?.id ?? '');
+			selectedSolution = loadedProject
+				? getPreviewSolutionId(loadedProject) || String(loadedProject.solutionId ?? loadedProject.solutions?.at(-1)?.id ?? '')
+				: '';
 			status = 'ready';
 		} catch (error) {
 			status = 'error';
 			errorMessage = error instanceof Error ? error.message : 'Erreur inconnue';
 		}
+	}
+
+	function previewSolution(solutionId: string) {
+		selectedSolution = solutionId;
+		if (project) setPreviewSolutionId(project, solutionId);
+	}
+
+	function solutionName(solutionId: string) {
+		return project ? (solutionById(project, solutionId)?.name ?? `Solution ${solutionId}`) : solutionId;
 	}
 
 	async function triggerUpdate() {
@@ -141,14 +153,26 @@
 
 			{#if projectSlug && project?.solutions?.length}
 				<label class="selector-field">
-					<span>Solution publiée</span>
-					<select bind:value={selectedSolution} disabled={status === 'submitting'}>
+					<span>Solution à prévisualiser</span>
+					<select
+						value={selectedSolution}
+						disabled={status === 'submitting'}
+						onchange={(event) => previewSolution(event.currentTarget.value)}
+					>
 						{#each project.solutions as solution}
 							<option value={String(solution.id)}>{solution.name}</option>
 						{/each}
 					</select>
 				</label>
-				<p class="field-help">Le changement est enregistré pour tout le monde lors de la mise à jour.</p>
+				{#if selectedSolution !== String(project.solutionId ?? '')}
+					<p class="preview-notice">
+						Previewing {solutionName(selectedSolution)}
+						(public solution: {solutionName(String(project.solutionId ?? ''))}).
+						<a class="text-link" href={`${base}/${project.slug}`.replace(/\/+/g, '/')}>Open preview</a>
+					</p>
+				{:else}
+					<p class="field-help">Le changement est enregistré pour tout le monde lors de la mise à jour.</p>
+				{/if}
 			{/if}
 
 			<label class="check-row">

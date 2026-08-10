@@ -76,6 +76,8 @@ La page `/all` permet aussi de gerer les projets :
 
 La même sélection est disponible sur `/<projet>/edit`. Une seule solution est exportée dans le planning public à chaque synchronisation ; changer de solution relance la synchronisation et le déploiement pour tous les visiteurs.
 
+Choisir une solution différente prépare immédiatement une prévisualisation locale dans le navigateur. `/all` et `/<projet>/edit` indiquent alors la solution prévisualisée et la solution publique ; ouvrir le planning ou son calendrier utilise la prévisualisation sans modifier le choix partagé. Revenir à la solution publique efface la prévisualisation locale.
+
 L'interface suit le workflow GitHub Actions jusqu'a la fin du deploiement, puis recharge automatiquement la liste sans utiliser la copie en cache.
 
 Une URL complete de document Grist peut etre collee a la place de l'ID. La cle Grist reste dans GitHub Actions et n'est jamais envoyee au navigateur.

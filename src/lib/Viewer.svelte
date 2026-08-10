@@ -24,8 +24,9 @@
 		normalizeForSearch
 	} from './schedule';
 	import { projectTheme, themeStyle as getThemeStyle } from './theme';
+	import { getPreviewSolutionId, solutionById } from './solutionPreview';
 	import TaskCard from './TaskCard.svelte';
-	import type { EnrichedTask, ProjectRegistry, ScheduleData, ViewMode } from './types';
+	import type { EnrichedTask, ProjectRegistry, ScheduleData, SolutionPreviewData, ViewMode } from './types';
 	import QRCode from 'qrcode';
 
 	let { projectSlug = '' } = $props<{ projectSlug?: string }>();
@@ -50,6 +51,8 @@
 	let now = $state(new Date());
 	let currentUrl = $state('');
 	let qrSvg = $state('');
+	let previewSolutionName = $state('');
+	let publicSolutionName = $state('');
 
 	let allTasks = $derived(project ? enrichTasks(project, now) : []);
 	let volunteers = $derived(project ? byName(project.volunteers) : []);
@@ -133,7 +136,23 @@
 			const response = await fetch(`${base}/${summary.dataPath}`);
 			if (!response.ok) throw new Error(`Impossible de charger ${summary.name} (${response.status})`);
 
-			project = (await response.json()) as ScheduleData;
+			const publicProject = (await response.json()) as ScheduleData;
+			const previewId = getPreviewSolutionId(summary);
+			const previewSolution = previewId ? solutionById(summary, previewId) : undefined;
+			previewSolutionName = '';
+			publicSolutionName = solutionById(summary, String(summary.solutionId ?? ''))?.name ?? '';
+
+			if (previewSolution?.dataPath && previewId !== String(summary.solutionId ?? '')) {
+				const previewResponse = await fetch(`${base}/${previewSolution.dataPath}`);
+				if (!previewResponse.ok) {
+					throw new Error(`Impossible de prévisualiser ${previewSolution.name} (${previewResponse.status})`);
+				}
+				const preview = (await previewResponse.json()) as SolutionPreviewData;
+				project = { ...publicProject, solutionId: preview.solutionId, tasks: preview.tasks };
+				previewSolutionName = previewSolution.name;
+			} else {
+				project = publicProject;
+			}
 			loadedSlug = summary.slug;
 			status = 'ready';
 
@@ -419,6 +438,12 @@
 					</label>
 				{/if}
 			</div>
+
+			{#if previewSolutionName}
+				<p class="preview-notice preview-notice--viewer">
+					Previewing {previewSolutionName} (public solution: {publicSolutionName}).
+				</p>
+			{/if}
 		</section>
 
 		<section class="workspace">

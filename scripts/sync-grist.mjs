@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, readdirSync, unlinkSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import {
 	compactObject,
@@ -58,21 +58,29 @@ for (const project of config.projects) {
 	if (!apiKey) throw new Error(`GRIST_API_KEY is required to sync ${project.slug}`);
 	if (!project.docId) throw new Error(`Missing docId for ${project.slug}`);
 
-	const schedule = await syncProject(project, apiKey, syncedAt);
+	const { schedule, solutionPreviews } = await syncProject(project, apiKey, syncedAt);
 	const outputPath = join(outputRoot, project.slug, 'schedule.json');
-	const existingSchedule = readJsonIfExists(outputPath);
-	const hasChanged = !samePublicData(existingSchedule, schedule);
+	let projectChanged = writeGeneratedData(outputPath, schedule);
+	const solutionDirectory = join(outputRoot, project.slug, 'solutions');
+	const expectedPreviewFiles = new Set();
 
-	if (!hasChanged && existingSchedule?.updatedAt) {
-		schedule.updatedAt = existingSchedule.updatedAt;
-	} else {
-		changedProjects.push(project.slug);
+	for (const preview of solutionPreviews) {
+		const previewPath = resolveStaticDataPath(preview.dataPath);
+		expectedPreviewFiles.add(previewPath);
+		projectChanged = writeGeneratedData(previewPath, preview.data) || projectChanged;
 	}
 
-	mkdirSync(dirname(outputPath), { recursive: true });
-	if (hasChanged || !existsSync(outputPath)) {
-		writeFileSync(outputPath, `${JSON.stringify(schedule, null, '\t')}\n`);
+	if (existsSync(solutionDirectory)) {
+		for (const entry of readdirSync(solutionDirectory, { withFileTypes: true })) {
+			const filePath = join(solutionDirectory, entry.name);
+			if (entry.isFile() && entry.name.endsWith('.json') && !expectedPreviewFiles.has(filePath)) {
+				unlinkSync(filePath);
+				projectChanged = true;
+			}
+		}
 	}
+
+	if (projectChanged) changedProjects.push(project.slug);
 
 	upsertProjectSummary({
 		slug: schedule.slug,
@@ -117,6 +125,16 @@ function upsertProjectSummary(summary) {
 	const index = registry.projects.findIndex((project) => project.slug === summary.slug);
 	if (index === -1) registry.projects.push(summary);
 	else registry.projects[index] = summary;
+}
+
+function writeGeneratedData(path, data) {
+	const previous = readJsonIfExists(path);
+	const hasChanged = !samePublicData(previous, data);
+	if (!hasChanged && previous?.updatedAt) data.updatedAt = previous.updatedAt;
+
+	mkdirSync(dirname(path), { recursive: true });
+	if (hasChanged || !existsSync(path)) writeFileSync(path, `${JSON.stringify(data, null, '\t')}\n`);
+	return hasChanged;
 }
 
 function samePublicData(previous, next) {
@@ -178,7 +196,8 @@ async function syncProject(project, apiKey, syncedAt) {
 		const fields = solutionById.get(String(id)) ?? {};
 		return {
 			id,
-			name: text(fields.name) || text(fields.Display) || `Solution ${id}`
+			name: text(fields.name) || text(fields.Display) || `Solution ${id}`,
+			dataPath: `data/${project.slug}/solutions/${solutionFileName(id)}.json`
 		};
 	});
 	const solutionId = project.solutionId === undefined ? solutionIds.at(-1) : numericOrText(project.solutionId);
@@ -242,9 +261,14 @@ async function syncProject(project, apiKey, syncedAt) {
 		});
 	});
 
-	const tasks = assignmentRows
-		.filter((row) => solutionId === undefined || String(solutionValue(row.fields)) === String(solutionId))
-		.map((row) => {
+	function tasksForSolution(targetSolutionId) {
+		return assignmentRows
+			.filter(
+				(row) =>
+					targetSolutionId === undefined ||
+					String(solutionValue(row.fields)) === String(targetSolutionId)
+			)
+			.map((row) => {
 			const fields = row.fields ?? {};
 			const questId = ref(fields.initial_quest);
 			const quest = questById.get(questId ?? '');
@@ -268,10 +292,13 @@ async function syncProject(project, apiKey, syncedAt) {
 				status: fields.Conserver ? 'Conservée' : undefined,
 				notes: text(typeFields.fiche_de_poste)
 			});
-		})
-		.filter((task) => task.start && task.end && (task.volunteerIds?.length ?? 0) > 0);
+			})
+			.filter((task) => task.start && task.end && (task.volunteerIds?.length ?? 0) > 0);
+	}
 
-	return {
+	const tasks = tasksForSolution(solutionId);
+
+	const schedule = {
 		schemaVersion: 1,
 		slug: project.slug,
 		name: text(info.name, project.name),
@@ -292,6 +319,21 @@ async function syncProject(project, apiKey, syncedAt) {
 		missions,
 		tasks
 	};
+	const solutionPreviews = solutions.map((solution) => ({
+		dataPath: solution.dataPath,
+		data: {
+			schemaVersion: 1,
+			solutionId: solution.id,
+			updatedAt: syncedAt,
+			tasks: tasksForSolution(solution.id)
+		}
+	}));
+
+	return { schedule, solutionPreviews };
+}
+
+function solutionFileName(value) {
+	return `solution-${Buffer.from(String(value), 'utf8').toString('base64url')}`;
 }
 
 function solutionValue(fields = {}) {

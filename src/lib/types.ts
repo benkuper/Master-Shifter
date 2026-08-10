@@ -3,6 +3,7 @@ export type SolutionId = string | number;
 export type Solution = {
 	id: SolutionId;
 	name: string;
+	dataPath?: string;
 };
 
 export type ProjectSummary = {
@@ -69,6 +70,13 @@ export type Task = {
 	notes?: string;
 	priority?: 'low' | 'normal' | 'high';
 	color?: string;
+};
+
+export type SolutionPreviewData = {
+	schemaVersion: 1;
+	solutionId: SolutionId;
+	updatedAt: string;
+	tasks: Task[];
 };
 
 export type ScheduleData = {

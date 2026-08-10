@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 	import { ArrowUpRight, CheckCircle2, Database, ExternalLink, Plus, RefreshCw, Trash2 } from '@lucide/svelte';
 	import { onMount } from 'svelte';
+	import { getPreviewSolutionId, setPreviewSolutionId, solutionById } from './solutionPreview';
 	import type { ProjectRegistry, ProjectSummary } from './types';
 
 	const REPOSITORY = 'benkuper/Master-Shifter';
@@ -45,7 +46,10 @@
 
 			registry = (await response.json()) as ProjectRegistry;
 			selectedSolutions = Object.fromEntries(
-				registry.projects.map((project) => [project.slug, String(project.solutionId ?? project.solutions?.at(-1)?.id ?? '')])
+				registry.projects.map((project) => [
+					project.slug,
+					getPreviewSolutionId(project) || String(project.solutionId ?? project.solutions?.at(-1)?.id ?? '')
+				])
 			);
 			status = 'ready';
 		} catch (error) {
@@ -61,6 +65,15 @@
 
 	function editHref(slug: string) {
 		return `${base}/${slug}/edit`.replace(/\/+/g, '/');
+	}
+
+	function previewSolution(project: ProjectSummary, solutionId: string) {
+		selectedSolutions[project.slug] = solutionId;
+		setPreviewSolutionId(project, solutionId);
+	}
+
+	function solutionName(project: ProjectSummary, solutionId: string) {
+		return solutionById(project, solutionId)?.name ?? `Solution ${solutionId}`;
 	}
 
 	async function addProject() {
@@ -290,8 +303,12 @@
 						{#if project.solutions?.length}
 							<div class="solution-picker">
 								<label class="selector-field">
-									<span>Solution publiée</span>
-									<select bind:value={selectedSolutions[project.slug]} disabled={managementStatus === 'submitting'}>
+									<span>Solution à prévisualiser</span>
+									<select
+										value={selectedSolutions[project.slug]}
+										disabled={managementStatus === 'submitting'}
+										onchange={(event) => previewSolution(project, event.currentTarget.value)}
+									>
 										{#each project.solutions as solution}
 											<option value={String(solution.id)}>{solution.name}</option>
 										{/each}
@@ -307,6 +324,12 @@
 									<span>{updatingSolutionSlug === project.slug ? 'Publication…' : 'Publier'}</span>
 								</button>
 							</div>
+							{#if selectedSolutions[project.slug] !== String(project.solutionId ?? '')}
+								<p class="preview-notice">
+									Previewing {solutionName(project, selectedSolutions[project.slug])}
+									(public solution: {solutionName(project, String(project.solutionId ?? ''))}).
+								</p>
+							{/if}
 						{/if}
 						<div class="project-card__actions">
 							<a class="primary-action" href={projectHref(project.slug)}>
