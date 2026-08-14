@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"solutionId": 3,
-	"updatedAt": "2026-08-13T16:40:22.464Z",
+	"updatedAt": "2026-08-14T13:50:21.113Z",
 	"tasks": [
 		{
 			"id": "5567",
@@ -542,18 +542,6 @@
 			"end": "2026-08-21T17:00:00.000Z",
 			"volunteerIds": [
 				"42"
-			],
-			"spotId": "1",
-			"missionId": "28",
-			"questTypeId": "9"
-		},
-		{
-			"id": "5610",
-			"title": "Renfort 5",
-			"start": "2026-08-22T15:00:00.000Z",
-			"end": "2026-08-22T17:00:00.000Z",
-			"volunteerIds": [
-				"62"
 			],
 			"spotId": "1",
 			"missionId": "28",
@@ -1496,8 +1484,7 @@
 			"volunteerIds": [
 				"1",
 				"22",
-				"26",
-				"62"
+				"26"
 			],
 			"spotId": "3",
 			"missionId": "48",
@@ -1541,7 +1528,6 @@
 			"volunteerIds": [
 				"26",
 				"43",
-				"62",
 				"8"
 			],
 			"spotId": "3",
@@ -1608,8 +1594,7 @@
 			"start": "2026-08-22T11:00:00.000Z",
 			"end": "2026-08-22T13:00:00.000Z",
 			"volunteerIds": [
-				"28",
-				"62"
+				"28"
 			],
 			"spotId": "3",
 			"missionId": "50",
@@ -1989,7 +1974,6 @@
 			"volunteerIds": [
 				"22",
 				"26",
-				"62",
 				"87"
 			],
 			"missionId": "57",
@@ -2003,8 +1987,7 @@
 			"volunteerIds": [
 				"22",
 				"26",
-				"38",
-				"62"
+				"38"
 			],
 			"missionId": "57",
 			"questTypeId": "8"
@@ -2101,8 +2084,7 @@
 			"volunteerIds": [
 				"22",
 				"26",
-				"28",
-				"62"
+				"28"
 			],
 			"missionId": "59",
 			"questTypeId": "8"
@@ -2157,8 +2139,7 @@
 			"volunteerIds": [
 				"26",
 				"28",
-				"29",
-				"62"
+				"29"
 			],
 			"missionId": "60",
 			"questTypeId": "8"
