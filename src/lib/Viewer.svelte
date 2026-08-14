@@ -25,6 +25,7 @@
 	} from './schedule';
 	import { projectTheme, themeStyle as getThemeStyle } from './theme';
 	import { getPreviewSolutionId, solutionById } from './solutionPreview';
+	import InstallButton from './InstallButton.svelte';
 	import TaskCard from './TaskCard.svelte';
 	import type { EnrichedTask, ProjectRegistry, ScheduleData, SolutionPreviewData, ViewMode } from './types';
 	import QRCode from 'qrcode';
@@ -386,14 +387,14 @@
 					</label>
 				{/if}
 
+				<InstallButton />
+
 				<button type="button" class="share-link" title="Afficher le QR code de partage" onclick={scrollToSharePanel}>
 					<QrCode size={18} aria-hidden="true" />
-					<span>Partager</span>
 				</button>
 
 				<a class="share-link" href={`${base}/${project.slug}/calendrier`.replace(/\/+/g, '/')}>
 					<CalendarDays size={18} aria-hidden="true" />
-					<span>Calendrier</span>
 				</a>
 
 				<button type="button" class="icon-button print-button" title="Imprimer" onclick={printPage}>
