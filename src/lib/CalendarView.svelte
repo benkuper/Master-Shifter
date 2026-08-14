@@ -4,6 +4,7 @@
 	import {
 		ArrowLeft,
 		CalendarDays,
+		ChevronRight,
 		Clock3,
 		Filter,
 		MapPin,
@@ -442,9 +443,15 @@
 				</div>
 				<span>{filteredTasks.length} quête{filteredTasks.length > 1 ? 's' : ''} affichée{filteredTasks.length > 1 ? 's' : ''}</span>
 			</header>
+			<p class="week-scroll-hint">
+				Balayez pour changer de jour
+				<ChevronRight size={16} aria-hidden="true" />
+			</p>
 
 			<div
 				class="week-grid"
+				role="region"
+				aria-label="Calendrier par jour, défilement horizontal"
 				style={`--day-count:${Math.max(1, eventWindow.days.length)};`}
 			>
 				{#each eventWindow.days as day (day)}
@@ -760,9 +767,28 @@
 
 	.week-grid {
 		display: grid;
+		width: 100%;
+		min-width: 0;
 		grid-template-columns: repeat(var(--day-count), minmax(230px, 1fr));
 		align-items: stretch;
 		overflow-x: auto;
+		overscroll-behavior-inline: contain;
+		scrollbar-color: var(--accent-border) transparent;
+		scrollbar-width: thin;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.week-grid::-webkit-scrollbar {
+		height: 6px;
+	}
+
+	.week-grid::-webkit-scrollbar-thumb {
+		border-radius: 999px;
+		background: var(--accent-border);
+	}
+
+	.week-scroll-hint {
+		display: none;
 	}
 
 	.week-day {
@@ -954,9 +980,6 @@
 			grid-column: span 2;
 		}
 
-		.week-grid {
-			min-width: calc(var(--day-count) * 240px);
-		}
 	}
 
 	@media (max-width: 680px) {
@@ -1001,8 +1024,30 @@
 			flex-direction: column;
 		}
 
+		.week-scroll-hint {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			gap: 4px;
+			margin: 0;
+			padding: 7px 11px;
+			border-bottom: 1px solid var(--line);
+			background: var(--accent-wash);
+			color: var(--accent-strong);
+			font-size: 0.72rem;
+			font-weight: 800;
+		}
+
 		.week-grid {
-			min-width: calc(var(--day-count) * 220px);
+			grid-template-columns: repeat(var(--day-count), minmax(82vw, 82vw));
+			scroll-padding-inline: 8px;
+			scroll-snap-type: inline mandatory;
+			touch-action: pan-x pan-y;
+		}
+
+		.week-day {
+			scroll-snap-align: start;
+			scroll-snap-stop: normal;
 		}
 
 		.no-results {
