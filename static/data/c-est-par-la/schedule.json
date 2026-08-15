@@ -4,7 +4,7 @@
 	"name": "C'est par là",
 	"period": "19 août - 22 août 2026",
 	"description": "Planning synchronise depuis Grist.",
-	"updatedAt": "2026-08-15T09:17:49.198Z",
+	"updatedAt": "2026-08-15T15:35:22.179Z",
 	"timezone": "Europe/Paris",
 	"dayStartHour": 5,
 	"solutionId": 7,
@@ -36,8 +36,18 @@
 		},
 		{
 			"id": 7,
-			"name": "2026-08-14T21:40:58",
+			"name": "version antérieure modifiée",
 			"dataPath": "data/c-est-par-la/solutions/solution-Nw.json"
+		},
+		{
+			"id": 8,
+			"name": "2026-08-15T12:09:18",
+			"dataPath": "data/c-est-par-la/solutions/solution-OA.json"
+		},
+		{
+			"id": 9,
+			"name": "2026-08-15T12:09:18 améliorée",
+			"dataPath": "data/c-est-par-la/solutions/solution-OQ.json"
 		}
 	],
 	"source": {
@@ -390,7 +400,7 @@
 		},
 		{
 			"id": "82",
-			"name": "Juliette Bonelli"
+			"name": "Juliette bonelli"
 		},
 		{
 			"id": "83",
@@ -1064,8 +1074,8 @@
 			"start": "2026-08-19T11:00:00.000Z",
 			"end": "2026-08-19T13:00:00.000Z",
 			"volunteerIds": [
-				"22",
-				"85"
+				"85",
+				"35"
 			],
 			"spotId": "1",
 			"missionId": "19",
@@ -1156,7 +1166,7 @@
 			"end": "2026-08-22T15:00:00.000Z",
 			"volunteerIds": [
 				"33",
-				"44"
+				"35"
 			],
 			"spotId": "1",
 			"missionId": "20",
@@ -1272,8 +1282,8 @@
 			"start": "2026-08-19T19:00:00.000Z",
 			"end": "2026-08-19T21:00:00.000Z",
 			"volunteerIds": [
-				"35",
-				"47"
+				"47",
+				"22"
 			],
 			"spotId": "1",
 			"missionId": "23",
@@ -1311,8 +1321,8 @@
 			"start": "2026-08-22T19:00:00.000Z",
 			"end": "2026-08-22T21:00:00.000Z",
 			"volunteerIds": [
-				"35",
-				"46"
+				"46",
+				"44"
 			],
 			"spotId": "1",
 			"missionId": "23",
@@ -1432,7 +1442,7 @@
 			"start": "2026-08-20T13:00:00.000Z",
 			"end": "2026-08-20T15:00:00.000Z",
 			"volunteerIds": [
-				"78"
+				"33"
 			],
 			"spotId": "1",
 			"missionId": "27",
@@ -1768,7 +1778,7 @@
 			"start": "2026-08-20T13:00:00.000Z",
 			"end": "2026-08-20T15:00:00.000Z",
 			"volunteerIds": [
-				"33"
+				"78"
 			],
 			"spotId": "6",
 			"missionId": "35",
@@ -1869,8 +1879,8 @@
 			"start": "2026-08-20T17:00:00.000Z",
 			"end": "2026-08-20T19:00:00.000Z",
 			"volunteerIds": [
-				"25",
-				"69"
+				"69",
+				"42"
 			],
 			"spotId": "6",
 			"missionId": "37",
@@ -2220,7 +2230,7 @@
 			"start": "2026-08-20T13:00:00.000Z",
 			"end": "2026-08-20T15:00:00.000Z",
 			"volunteerIds": [
-				"42"
+				"25"
 			],
 			"spotId": "4",
 			"missionId": "44",
@@ -2447,8 +2457,8 @@
 			"volunteerIds": [
 				"2",
 				"30",
-				"35",
-				"43"
+				"43",
+				"88"
 			],
 			"spotId": "3",
 			"missionId": "48",
@@ -2620,7 +2630,7 @@
 				"28",
 				"36",
 				"75",
-				"88"
+				"35"
 			],
 			"spotId": "3",
 			"missionId": "51",
