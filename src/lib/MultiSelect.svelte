@@ -151,6 +151,7 @@
 		top: calc(100% + 7px);
 		left: 0;
 		display: grid;
+		grid-template-rows: auto minmax(0, 1fr);
 		width: max(100%, 260px);
 		max-height: min(380px, 55vh);
 		overflow: hidden;
@@ -187,8 +188,23 @@
 	.multi-select__options {
 		display: grid;
 		gap: 3px;
+		min-height: 0;
 		overflow-y: auto;
+		overscroll-behavior: contain;
 		padding: 7px;
+		scrollbar-color: var(--line-strong) transparent;
+		scrollbar-gutter: stable;
+	}
+
+	.multi-select__options::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	.multi-select__options::-webkit-scrollbar-thumb {
+		border: 2px solid transparent;
+		border-radius: 999px;
+		background: var(--line-strong);
+		background-clip: padding-box;
 	}
 
 	.multi-select__options label {
