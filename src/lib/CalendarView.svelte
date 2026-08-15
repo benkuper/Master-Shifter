@@ -85,8 +85,7 @@
 				id: questType.id,
 				label: questType.name,
 				count: eventWindow.tasks.filter((task) => task.questTypeId === questType.id).length
-			}))
-			.filter((option) => option.count > 0);
+			}));
 	});
 
 	let filteredTasks = $derived.by(() => {
