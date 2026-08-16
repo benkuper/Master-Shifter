@@ -35,6 +35,24 @@
 				"solutions": "Solutions",
 				"info": "Infos_generales"
 			}
+		},
+		{
+			"slug": "toubenev-de-la-mort",
+			"name": "Toubénev De la Mort",
+			"enabled": true,
+			"docId": "7teJWzkFpMN8R6ZNqcYgeJ",
+			"apiBase": "https://docs.getgrist.com/api",
+			"solutionId": 11,
+			"description": "Planning synchronise depuis Grist.",
+			"tables": {
+				"spots": "Lieux",
+				"questTypes": "Types_de_quetes",
+				"quests": "Quetes",
+				"volunteers": "Benevoles",
+				"assignments": "Assignations",
+				"solutions": "Solutions",
+				"info": "Infos_generales"
+			}
 		}
 	]
 }

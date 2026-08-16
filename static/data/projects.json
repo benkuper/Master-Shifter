@@ -87,6 +87,37 @@
 					"dataPath": "data/c-est-par-la/solutions/solution-OQ.json"
 				}
 			]
+		},
+		{
+			"slug": "toubenev-de-la-mort",
+			"name": "",
+			"period": "18 août - 22 août 2026",
+			"description": "Planning synchronise depuis Grist.",
+			"dataPath": "data/toubenev-de-la-mort/schedule.json",
+			"updatedAt": "2026-08-16T08:46:49.406Z",
+			"solutionId": 11,
+			"solutions": [
+				{
+					"id": 1,
+					"name": "Aperçu",
+					"dataPath": "data/toubenev-de-la-mort/solutions/solution-MQ.json"
+				},
+				{
+					"id": 2,
+					"name": "Dernière optimisation",
+					"dataPath": "data/toubenev-de-la-mort/solutions/solution-Mg.json"
+				},
+				{
+					"id": 10,
+					"name": "2026-08-15T17:52:18",
+					"dataPath": "data/toubenev-de-la-mort/solutions/solution-MTA.json"
+				},
+				{
+					"id": 11,
+					"name": "2026-08-15T19:59:44",
+					"dataPath": "data/toubenev-de-la-mort/solutions/solution-MTE.json"
+				}
+			]
 		}
 	]
 }
