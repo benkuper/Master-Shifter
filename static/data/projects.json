@@ -43,8 +43,8 @@
 			"period": "19 août - 22 août 2026",
 			"description": "Planning synchronise depuis Grist.",
 			"dataPath": "data/c-est-par-la/schedule.json",
-			"updatedAt": "2026-08-15T15:35:22.179Z",
-			"solutionId": 7,
+			"updatedAt": "2026-08-16T08:45:53.208Z",
+			"solutionId": 9,
 			"solutions": [
 				{
 					"id": 1,
