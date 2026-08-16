@@ -90,11 +90,11 @@
 		},
 		{
 			"slug": "toubenev-de-la-mort",
-			"name": "",
+			"name": "De la mort",
 			"period": "18 août - 22 août 2026",
 			"description": "Planning synchronise depuis Grist.",
 			"dataPath": "data/toubenev-de-la-mort/schedule.json",
-			"updatedAt": "2026-08-16T08:46:49.406Z",
+			"updatedAt": "2026-08-16T08:50:07.721Z",
 			"solutionId": 11,
 			"solutions": [
 				{
