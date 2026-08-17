@@ -99,8 +99,8 @@
 			"period": "18 août - 22 août 2026",
 			"description": "Planning synchronise depuis Grist.",
 			"dataPath": "data/toubenev-de-la-mort/schedule.json",
-			"updatedAt": "2026-08-17T12:29:41.973Z",
-			"solutionId": 19,
+			"updatedAt": "2026-08-17T12:32:51.313Z",
+			"solutionId": 20,
 			"solutions": [
 				{
 					"id": 1,

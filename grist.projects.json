@@ -42,7 +42,7 @@
 			"enabled": true,
 			"docId": "7teJWzkFpMN8R6ZNqcYgeJ",
 			"apiBase": "https://docs.getgrist.com/api",
-			"solutionId": 19,
+			"solutionId": 20,
 			"description": "Planning synchronise depuis Grist.",
 			"tables": {
 				"spots": "Lieux",
