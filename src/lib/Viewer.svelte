@@ -387,7 +387,7 @@
 					</label>
 				{/if}
 
-				<InstallButton />
+				<InstallButton targetUrl={buildCurrentUrl()} scopeBase={base} />
 
 				<button type="button" class="share-link" title="Afficher le QR code de partage" onclick={scrollToSharePanel}>
 					<QrCode size={18} aria-hidden="true" />

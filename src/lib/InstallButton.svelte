@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { EllipsisVertical, HousePlus, Share2, X } from '@lucide/svelte';
 	import { onMount } from 'svelte';
+	import { INSTALL_URL_STORAGE_KEY, resolveInstallTarget } from './installTarget';
 
 	type InstallPromptEvent = Event & {
 		prompt: () => Promise<void>;
@@ -8,6 +9,8 @@
 	};
 
 	type NavigatorWithStandalone = Navigator & { standalone?: boolean };
+
+	let { targetUrl = '', scopeBase = '' } = $props<{ targetUrl?: string; scopeBase?: string }>();
 
 	let installPrompt = $state<InstallPromptEvent | null>(null);
 	let installed = $state(false);
@@ -60,7 +63,12 @@
 
 	async function addToHomeScreen() {
 		try {
-			localStorage.setItem('master-shifter-install-url', window.location.href);
+			const target = resolveInstallTarget(
+				targetUrl || window.location.href,
+				window.location.origin,
+				scopeBase
+			);
+			localStorage.setItem(INSTALL_URL_STORAGE_KEY, (target ?? new URL(window.location.href)).toString());
 		} catch {
 			// L'installation reste possible si le stockage local est désactivé.
 		}
