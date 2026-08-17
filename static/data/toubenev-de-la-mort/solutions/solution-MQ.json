@@ -1,10 +1,10 @@
 {
 	"schemaVersion": 1,
 	"solutionId": 1,
-	"updatedAt": "2026-08-16T08:46:49.406Z",
+	"updatedAt": "2026-08-17T07:08:30.455Z",
 	"tasks": [
 		{
-			"id": "9230",
+			"id": "14335",
 			"title": "☕ Cafe mortel",
 			"start": "2026-08-19T12:30:00.000Z",
 			"end": "2026-08-19T13:30:00.000Z",
@@ -16,7 +16,7 @@
 			"questTypeId": "43"
 		},
 		{
-			"id": "9231",
+			"id": "14336",
 			"title": "☕ Cafe mortel",
 			"start": "2026-08-20T12:30:00.000Z",
 			"end": "2026-08-20T13:30:00.000Z",
@@ -28,7 +28,7 @@
 			"questTypeId": "43"
 		},
 		{
-			"id": "9232",
+			"id": "14337",
 			"title": "☕ Cafe mortel",
 			"start": "2026-08-21T12:30:00.000Z",
 			"end": "2026-08-21T13:30:00.000Z",
@@ -40,7 +40,7 @@
 			"questTypeId": "43"
 		},
 		{
-			"id": "9233",
+			"id": "14338",
 			"title": "☕ Cafe mortel",
 			"start": "2026-08-22T12:30:00.000Z",
 			"end": "2026-08-22T13:30:00.000Z",
@@ -52,7 +52,7 @@
 			"questTypeId": "43"
 		},
 		{
-			"id": "9266",
+			"id": "14371",
 			"title": "📚 librairie invisible",
 			"start": "2026-08-19T08:00:00.000Z",
 			"end": "2026-08-19T20:00:00.000Z",
@@ -64,7 +64,7 @@
 			"questTypeId": "45"
 		},
 		{
-			"id": "9267",
+			"id": "14372",
 			"title": "📚 librairie invisible",
 			"start": "2026-08-20T08:00:00.000Z",
 			"end": "2026-08-20T20:00:00.000Z",
@@ -76,7 +76,7 @@
 			"questTypeId": "45"
 		},
 		{
-			"id": "9268",
+			"id": "14373",
 			"title": "📚 librairie invisible",
 			"start": "2026-08-21T08:00:00.000Z",
 			"end": "2026-08-21T20:00:00.000Z",
@@ -88,7 +88,7 @@
 			"questTypeId": "45"
 		},
 		{
-			"id": "9269",
+			"id": "14374",
 			"title": "📚 librairie invisible",
 			"start": "2026-08-22T08:00:00.000Z",
 			"end": "2026-08-22T20:00:00.000Z",
@@ -100,7 +100,7 @@
 			"questTypeId": "45"
 		},
 		{
-			"id": "9302",
+			"id": "14407",
 			"title": "🍽️ Cuisine avec Valentin",
 			"start": "2026-08-22T05:30:00.000Z",
 			"end": "2026-08-22T09:30:00.000Z",
@@ -112,7 +112,7 @@
 			"questTypeId": "48"
 		},
 		{
-			"id": "9303",
+			"id": "14408",
 			"title": "🍽️ Cuisine avec Valentin",
 			"start": "2026-08-20T05:30:00.000Z",
 			"end": "2026-08-20T09:30:00.000Z",
@@ -124,7 +124,7 @@
 			"questTypeId": "48"
 		},
 		{
-			"id": "9304",
+			"id": "14409",
 			"title": "🍽️ Cuisine avec Valentin",
 			"start": "2026-08-21T05:30:00.000Z",
 			"end": "2026-08-21T09:30:00.000Z",
@@ -136,7 +136,7 @@
 			"questTypeId": "48"
 		},
 		{
-			"id": "9306",
+			"id": "14411",
 			"title": "🍽️ Cuisine avec Valentin",
 			"start": "2026-08-21T13:00:00.000Z",
 			"end": "2026-08-21T17:00:00.000Z",
@@ -149,7 +149,7 @@
 			"questTypeId": "14"
 		},
 		{
-			"id": "9353",
+			"id": "14458",
 			"title": "🍽️ Cuisine avec Valentin",
 			"start": "2026-08-19T05:30:00.000Z",
 			"end": "2026-08-19T09:30:00.000Z",
@@ -161,7 +161,7 @@
 			"questTypeId": "48"
 		},
 		{
-			"id": "9430",
+			"id": "14535",
 			"title": "💃 Radio sapin par MANGE!",
 			"start": "2026-08-19T08:00:00.000Z",
 			"end": "2026-08-19T08:55:00.000Z",
@@ -174,7 +174,7 @@
 			"questTypeId": "31"
 		},
 		{
-			"id": "9431",
+			"id": "14536",
 			"title": "💃 Radio sapin par MANGE!",
 			"start": "2026-08-20T08:00:00.000Z",
 			"end": "2026-08-20T08:55:00.000Z",
@@ -187,7 +187,7 @@
 			"questTypeId": "31"
 		},
 		{
-			"id": "9432",
+			"id": "14537",
 			"title": "💃 Radio sapin par MANGE!",
 			"start": "2026-08-21T08:00:00.000Z",
 			"end": "2026-08-21T08:55:00.000Z",
@@ -200,7 +200,7 @@
 			"questTypeId": "31"
 		},
 		{
-			"id": "9433",
+			"id": "14538",
 			"title": "💃 Radio sapin par MANGE!",
 			"start": "2026-08-22T08:00:00.000Z",
 			"end": "2026-08-22T08:55:00.000Z",
@@ -213,7 +213,7 @@
 			"questTypeId": "31"
 		},
 		{
-			"id": "9434",
+			"id": "14539",
 			"title": "💃 Miette par Cie Griotte",
 			"start": "2026-08-19T09:00:00.000Z",
 			"end": "2026-08-19T09:45:00.000Z",
@@ -228,7 +228,7 @@
 			"questTypeId": "19"
 		},
 		{
-			"id": "9435",
+			"id": "14540",
 			"title": "💃 Miette par Cie Griotte",
 			"start": "2026-08-20T09:00:00.000Z",
 			"end": "2026-08-20T09:45:00.000Z",
@@ -243,7 +243,7 @@
 			"questTypeId": "19"
 		},
 		{
-			"id": "9436",
+			"id": "14541",
 			"title": "💃 Miette par Cie Griotte",
 			"start": "2026-08-21T09:00:00.000Z",
 			"end": "2026-08-21T09:45:00.000Z",
@@ -258,7 +258,7 @@
 			"questTypeId": "19"
 		},
 		{
-			"id": "9437",
+			"id": "14542",
 			"title": "💃 Miette par Cie Griotte",
 			"start": "2026-08-22T09:00:00.000Z",
 			"end": "2026-08-22T09:45:00.000Z",
@@ -273,7 +273,7 @@
 			"questTypeId": "19"
 		},
 		{
-			"id": "9438",
+			"id": "14543",
 			"title": "💃 Spectacle Apparament j'avais grandit par Cie Sans broncher",
 			"start": "2026-08-19T10:00:00.000Z",
 			"end": "2026-08-19T11:00:00.000Z",
@@ -289,7 +289,7 @@
 			"questTypeId": "15"
 		},
 		{
-			"id": "9439",
+			"id": "14544",
 			"title": "💃 Spectacle Apparament j'avais grandit par Cie Sans broncher",
 			"start": "2026-08-20T10:00:00.000Z",
 			"end": "2026-08-20T11:00:00.000Z",
@@ -305,7 +305,7 @@
 			"questTypeId": "15"
 		},
 		{
-			"id": "9440",
+			"id": "14545",
 			"title": "💃 Spectacle Apparament j'avais grandit par Cie Sans broncher",
 			"start": "2026-08-21T10:00:00.000Z",
 			"end": "2026-08-21T11:00:00.000Z",
@@ -321,7 +321,7 @@
 			"questTypeId": "15"
 		},
 		{
-			"id": "9441",
+			"id": "14546",
 			"title": "💃 Spectacle Apparament j'avais grandit par Cie Sans broncher",
 			"start": "2026-08-22T10:00:00.000Z",
 			"end": "2026-08-22T11:00:00.000Z",
@@ -337,7 +337,7 @@
 			"questTypeId": "15"
 		},
 		{
-			"id": "9442",
+			"id": "14547",
 			"title": "💃 Boom mortel par Cie Griotte",
 			"start": "2026-08-19T10:15:00.000Z",
 			"end": "2026-08-19T11:10:00.000Z",
@@ -353,7 +353,7 @@
 			"questTypeId": "20"
 		},
 		{
-			"id": "9443",
+			"id": "14548",
 			"title": "💃 Boom mortel par Cie Griotte",
 			"start": "2026-08-20T10:15:00.000Z",
 			"end": "2026-08-20T11:10:00.000Z",
@@ -369,7 +369,7 @@
 			"questTypeId": "20"
 		},
 		{
-			"id": "9444",
+			"id": "14549",
 			"title": "💃 Boom mortel par Cie Griotte",
 			"start": "2026-08-21T10:15:00.000Z",
 			"end": "2026-08-21T11:10:00.000Z",
@@ -385,7 +385,7 @@
 			"questTypeId": "20"
 		},
 		{
-			"id": "9445",
+			"id": "14550",
 			"title": "💃 Boom mortel par Cie Griotte",
 			"start": "2026-08-22T10:15:00.000Z",
 			"end": "2026-08-22T11:10:00.000Z",
@@ -401,7 +401,7 @@
 			"questTypeId": "20"
 		},
 		{
-			"id": "9450",
+			"id": "14555",
 			"title": "💃 \"Chien d'la Casse\" avec Polko Gazoal par Cie la Jante Félée",
 			"start": "2026-08-19T12:10:00.000Z",
 			"end": "2026-08-19T13:10:00.000Z",
@@ -414,7 +414,7 @@
 			"questTypeId": "16"
 		},
 		{
-			"id": "9451",
+			"id": "14556",
 			"title": "💃 \"Chien d'la Casse\" avec Polko Gazoal par Cie la Jante Félée",
 			"start": "2026-08-20T12:10:00.000Z",
 			"end": "2026-08-20T13:10:00.000Z",
@@ -427,7 +427,7 @@
 			"questTypeId": "16"
 		},
 		{
-			"id": "9452",
+			"id": "14557",
 			"title": "💃 \"Chien d'la Casse\" avec Polko Gazoal par Cie la Jante Félée",
 			"start": "2026-08-21T12:10:00.000Z",
 			"end": "2026-08-21T13:10:00.000Z",
@@ -440,7 +440,7 @@
 			"questTypeId": "16"
 		},
 		{
-			"id": "9453",
+			"id": "14558",
 			"title": "💃 \"Chien d'la Casse\" avec Polko Gazoal par Cie la Jante Félée",
 			"start": "2026-08-22T12:10:00.000Z",
 			"end": "2026-08-22T13:10:00.000Z",
@@ -453,7 +453,7 @@
 			"questTypeId": "16"
 		},
 		{
-			"id": "9454",
+			"id": "14559",
 			"title": "💃 Au delà par Cie La Fausta",
 			"start": "2026-08-19T13:20:00.000Z",
 			"end": "2026-08-19T14:25:00.000Z",
@@ -466,7 +466,7 @@
 			"questTypeId": "21"
 		},
 		{
-			"id": "9455",
+			"id": "14560",
 			"title": "💃 Au delà par Cie La Fausta",
 			"start": "2026-08-20T13:20:00.000Z",
 			"end": "2026-08-20T14:25:00.000Z",
@@ -479,7 +479,7 @@
 			"questTypeId": "21"
 		},
 		{
-			"id": "9456",
+			"id": "14561",
 			"title": "💃 Au delà par Cie La Fausta",
 			"start": "2026-08-21T13:20:00.000Z",
 			"end": "2026-08-21T14:25:00.000Z",
@@ -492,7 +492,7 @@
 			"questTypeId": "21"
 		},
 		{
-			"id": "9457",
+			"id": "14562",
 			"title": "💃 Au delà par Cie La Fausta",
 			"start": "2026-08-22T13:20:00.000Z",
 			"end": "2026-08-22T14:25:00.000Z",
@@ -505,7 +505,7 @@
 			"questTypeId": "21"
 		},
 		{
-			"id": "9458",
+			"id": "14563",
 			"title": "💃 Figurec par MANGE!",
 			"start": "2026-08-19T14:30:00.000Z",
 			"end": "2026-08-19T16:00:00.000Z",
@@ -522,7 +522,7 @@
 			"questTypeId": "17"
 		},
 		{
-			"id": "9459",
+			"id": "14564",
 			"title": "💃 Figurec par MANGE!",
 			"start": "2026-08-20T14:30:00.000Z",
 			"end": "2026-08-20T16:00:00.000Z",
@@ -539,7 +539,7 @@
 			"questTypeId": "17"
 		},
 		{
-			"id": "9460",
+			"id": "14565",
 			"title": "💃 Figurec par MANGE!",
 			"start": "2026-08-21T14:30:00.000Z",
 			"end": "2026-08-21T16:00:00.000Z",
@@ -556,7 +556,7 @@
 			"questTypeId": "17"
 		},
 		{
-			"id": "9461",
+			"id": "14566",
 			"title": "💃 Figurec par MANGE!",
 			"start": "2026-08-22T14:30:00.000Z",
 			"end": "2026-08-22T16:00:00.000Z",
@@ -573,7 +573,7 @@
 			"questTypeId": "17"
 		},
 		{
-			"id": "9462",
+			"id": "14567",
 			"title": "💃 Céremonie de la pastèque",
 			"start": "2026-08-19T16:10:00.000Z",
 			"end": "2026-08-19T17:10:00.000Z",
@@ -586,7 +586,7 @@
 			"questTypeId": "22"
 		},
 		{
-			"id": "9463",
+			"id": "14568",
 			"title": "💃 Céremonie de la pastèque",
 			"start": "2026-08-20T16:10:00.000Z",
 			"end": "2026-08-20T17:10:00.000Z",
@@ -599,7 +599,7 @@
 			"questTypeId": "22"
 		},
 		{
-			"id": "9464",
+			"id": "14569",
 			"title": "💃 Céremonie de la pastèque",
 			"start": "2026-08-21T16:10:00.000Z",
 			"end": "2026-08-21T17:10:00.000Z",
@@ -612,7 +612,7 @@
 			"questTypeId": "22"
 		},
 		{
-			"id": "9465",
+			"id": "14570",
 			"title": "💃 Céremonie de la pastèque",
 			"start": "2026-08-22T16:10:00.000Z",
 			"end": "2026-08-22T17:10:00.000Z",
@@ -625,7 +625,7 @@
 			"questTypeId": "22"
 		},
 		{
-			"id": "9466",
+			"id": "14571",
 			"title": "💃 Goodbye Goerges par L'engrenage",
 			"start": "2026-08-19T17:20:00.000Z",
 			"end": "2026-08-19T18:25:00.000Z",
@@ -642,7 +642,7 @@
 			"questTypeId": "18"
 		},
 		{
-			"id": "9467",
+			"id": "14572",
 			"title": "💃 Goodbye Goerges par L'engrenage",
 			"start": "2026-08-20T17:20:00.000Z",
 			"end": "2026-08-20T18:25:00.000Z",
@@ -659,7 +659,7 @@
 			"questTypeId": "18"
 		},
 		{
-			"id": "9468",
+			"id": "14573",
 			"title": "💃 Goodbye Goerges par L'engrenage",
 			"start": "2026-08-21T17:20:00.000Z",
 			"end": "2026-08-21T18:25:00.000Z",
@@ -676,7 +676,7 @@
 			"questTypeId": "18"
 		},
 		{
-			"id": "9469",
+			"id": "14574",
 			"title": "💃 Goodbye Goerges par L'engrenage",
 			"start": "2026-08-22T17:20:00.000Z",
 			"end": "2026-08-22T18:25:00.000Z",
@@ -693,7 +693,7 @@
 			"questTypeId": "18"
 		},
 		{
-			"id": "9470",
+			"id": "14575",
 			"title": "💃 Metamorteme",
 			"start": "2026-08-19T18:30:00.000Z",
 			"end": "2026-08-19T20:00:00.000Z",
@@ -708,7 +708,7 @@
 			"questTypeId": "23"
 		},
 		{
-			"id": "9471",
+			"id": "14576",
 			"title": "💃 Metamorteme",
 			"start": "2026-08-20T18:30:00.000Z",
 			"end": "2026-08-20T20:00:00.000Z",
@@ -723,7 +723,7 @@
 			"questTypeId": "23"
 		},
 		{
-			"id": "9472",
+			"id": "14577",
 			"title": "💃 Metamorteme",
 			"start": "2026-08-21T18:30:00.000Z",
 			"end": "2026-08-21T20:00:00.000Z",
@@ -738,7 +738,7 @@
 			"questTypeId": "23"
 		},
 		{
-			"id": "9473",
+			"id": "14578",
 			"title": "💃 Metamorteme",
 			"start": "2026-08-22T18:30:00.000Z",
 			"end": "2026-08-22T20:00:00.000Z",
@@ -753,7 +753,7 @@
 			"questTypeId": "23"
 		},
 		{
-			"id": "9474",
+			"id": "14579",
 			"title": "💃 Fée",
 			"start": "2026-08-19T11:10:00.000Z",
 			"end": "2026-08-19T11:55:00.000Z",
@@ -765,7 +765,7 @@
 			"questTypeId": "24"
 		},
 		{
-			"id": "9475",
+			"id": "14580",
 			"title": "💃 Electron libre",
 			"start": "2026-08-20T11:10:00.000Z",
 			"end": "2026-08-20T12:10:00.000Z",
@@ -778,7 +778,7 @@
 			"questTypeId": "30"
 		},
 		{
-			"id": "9476",
+			"id": "14581",
 			"title": "💃 Faux Soyeuse par Pistil fondu",
 			"start": "2026-08-19T20:00:00.000Z",
 			"end": "2026-08-19T21:30:00.000Z",
@@ -797,7 +797,7 @@
 			"questTypeId": "25"
 		},
 		{
-			"id": "9477",
+			"id": "14582",
 			"title": "💃 Faux Soyeuse par Pistil fondu",
 			"start": "2026-08-20T20:00:00.000Z",
 			"end": "2026-08-20T21:30:00.000Z",
@@ -816,7 +816,7 @@
 			"questTypeId": "25"
 		},
 		{
-			"id": "9478",
+			"id": "14583",
 			"title": "💃 Faux Soyeuse par Pistil fondu",
 			"start": "2026-08-21T20:00:00.000Z",
 			"end": "2026-08-21T21:30:00.000Z",
@@ -835,7 +835,7 @@
 			"questTypeId": "25"
 		},
 		{
-			"id": "9479",
+			"id": "14584",
 			"title": "💃 Faux Soyeuse par Pistil fondu",
 			"start": "2026-08-22T20:00:00.000Z",
 			"end": "2026-08-22T21:30:00.000Z",
@@ -854,7 +854,7 @@
 			"questTypeId": "25"
 		},
 		{
-			"id": "9480",
+			"id": "14585",
 			"title": "💃 Tinaa",
 			"start": "2026-08-19T21:50:00.000Z",
 			"end": "2026-08-19T22:35:00.000Z",
@@ -867,7 +867,7 @@
 			"questTypeId": "26"
 		},
 		{
-			"id": "9481",
+			"id": "14586",
 			"title": "💃 Rel soli",
 			"start": "2026-08-20T21:50:00.000Z",
 			"end": "2026-08-20T22:35:00.000Z",
@@ -880,7 +880,7 @@
 			"questTypeId": "27"
 		},
 		{
-			"id": "9482",
+			"id": "14587",
 			"title": "💃 Jalm",
 			"start": "2026-08-22T23:00:00.000Z",
 			"end": "2026-08-22T23:50:00.000Z",
@@ -893,7 +893,7 @@
 			"questTypeId": "29"
 		},
 		{
-			"id": "9483",
+			"id": "14588",
 			"title": "💃 Fée",
 			"start": "2026-08-21T11:10:00.000Z",
 			"end": "2026-08-21T11:55:00.000Z",
@@ -905,7 +905,7 @@
 			"questTypeId": "24"
 		},
 		{
-			"id": "9484",
+			"id": "14589",
 			"title": "💃 Electron libre",
 			"start": "2026-08-22T11:10:00.000Z",
 			"end": "2026-08-22T12:10:00.000Z",
@@ -918,7 +918,7 @@
 			"questTypeId": "30"
 		},
 		{
-			"id": "9485",
+			"id": "14590",
 			"title": "💃 Rel soli",
 			"start": "2026-08-21T21:50:00.000Z",
 			"end": "2026-08-21T22:35:00.000Z",
@@ -931,7 +931,7 @@
 			"questTypeId": "27"
 		},
 		{
-			"id": "9514",
+			"id": "14619",
 			"title": "🪑 Deplacement Gradin + Mise Banc",
 			"start": "2026-08-19T13:10:00.000Z",
 			"end": "2026-08-19T14:30:00.000Z",
@@ -943,7 +943,7 @@
 			"questTypeId": "39"
 		},
 		{
-			"id": "9515",
+			"id": "14620",
 			"title": "🪑 Deplacement Gradin + Mise Banc",
 			"start": "2026-08-20T13:10:00.000Z",
 			"end": "2026-08-20T14:30:00.000Z",
@@ -955,7 +955,7 @@
 			"questTypeId": "39"
 		},
 		{
-			"id": "9516",
+			"id": "14621",
 			"title": "🪑 Deplacement Gradin + Mise Banc",
 			"start": "2026-08-21T13:10:00.000Z",
 			"end": "2026-08-21T14:30:00.000Z",
@@ -967,7 +967,7 @@
 			"questTypeId": "39"
 		},
 		{
-			"id": "9517",
+			"id": "14622",
 			"title": "🪑 Deplacement Gradin + Mise Banc",
 			"start": "2026-08-22T13:10:00.000Z",
 			"end": "2026-08-22T14:30:00.000Z",
@@ -979,7 +979,7 @@
 			"questTypeId": "39"
 		},
 		{
-			"id": "9594",
+			"id": "14699",
 			"title": "💃 Argalouve",
 			"start": "2026-08-22T21:45:00.000Z",
 			"end": "2026-08-22T22:45:00.000Z",

@@ -4,7 +4,7 @@
 	"name": "Bisous la porte",
 	"period": "19 août - 22 août 2026",
 	"description": "Planning synchronise depuis Grist.",
-	"updatedAt": "2026-08-16T08:40:41.759Z",
+	"updatedAt": "2026-08-17T07:08:30.455Z",
 	"timezone": "Europe/Paris",
 	"dayStartHour": 5,
 	"solutionId": 3,
@@ -1440,6 +1440,13 @@
 			"type": "Accueil",
 			"spotId": "4",
 			"questTypeId": "4"
+		},
+		{
+			"id": "102",
+			"name": "👔 Accueil pro",
+			"type": "Accueil pro",
+			"spotId": "4",
+			"questTypeId": "23"
 		}
 	],
 	"tasks": [
