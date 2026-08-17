@@ -7,7 +7,7 @@
 			"enabled": true,
 			"docId": "meMnMKigJo2gJ8JP1V8AwX",
 			"apiBase": "https://docs.getgrist.com/api",
-			"solutionId": 3,
+			"solutionId": 6,
 			"description": "Planning synchronise depuis Grist.",
 			"tables": {
 				"spots": "Lieux",
@@ -24,7 +24,25 @@
 			"enabled": true,
 			"docId": "k5K19gPd4wzR",
 			"apiBase": "https://docs.getgrist.com/api",
-			"solutionId": 7,
+			"solutionId": 9,
+			"description": "Planning synchronise depuis Grist.",
+			"tables": {
+				"spots": "Lieux",
+				"questTypes": "Types_de_quetes",
+				"quests": "Quetes",
+				"volunteers": "Benevoles",
+				"assignments": "Assignations",
+				"solutions": "Solutions",
+				"info": "Infos_generales"
+			}
+		},
+		{
+			"slug": "toubenev-de-la-mort",
+			"name": "Toubénev De la Mort",
+			"enabled": true,
+			"docId": "7teJWzkFpMN8R6ZNqcYgeJ",
+			"apiBase": "https://docs.getgrist.com/api",
+			"solutionId": 20,
 			"description": "Planning synchronise depuis Grist.",
 			"tables": {
 				"spots": "Lieux",
