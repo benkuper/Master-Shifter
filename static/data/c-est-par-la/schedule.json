@@ -4,7 +4,7 @@
 	"name": "C'est par là",
 	"period": "19 août - 22 août 2026",
 	"description": "Planning synchronise depuis Grist.",
-	"updatedAt": "2026-08-17T18:18:12.601Z",
+	"updatedAt": "2026-08-18T17:35:56.918Z",
 	"timezone": "Europe/Paris",
 	"dayStartHour": 5,
 	"solutionId": 9,
@@ -1325,8 +1325,8 @@
 			"start": "2026-08-22T19:00:00.000Z",
 			"end": "2026-08-22T21:00:00.000Z",
 			"volunteerIds": [
-				"35",
-				"50"
+				"50",
+				"87"
 			],
 			"spotId": "1",
 			"missionId": "23",
@@ -2719,8 +2719,8 @@
 			"start": "2026-08-20T19:00:00.000Z",
 			"end": "2026-08-20T21:00:00.000Z",
 			"volunteerIds": [
-				"35",
-				"44"
+				"44",
+				"87"
 			],
 			"spotId": "3",
 			"missionId": "53",
@@ -2836,7 +2836,7 @@
 				"45",
 				"48",
 				"61",
-				"87"
+				"35"
 			],
 			"spotId": "1",
 			"missionId": "55",
@@ -2866,7 +2866,7 @@
 				"19",
 				"45",
 				"86",
-				"87"
+				"35"
 			],
 			"spotId": "1",
 			"missionId": "55",
