@@ -4,7 +4,7 @@
 	"name": "C'est par là",
 	"period": "19 août - 22 août 2026",
 	"description": "Planning synchronise depuis Grist.",
-	"updatedAt": "2026-08-18T17:35:56.918Z",
+	"updatedAt": "2026-08-18T20:47:53.060Z",
 	"timezone": "Europe/Paris",
 	"dayStartHour": 5,
 	"solutionId": 9,
@@ -117,7 +117,7 @@
 		},
 		{
 			"id": "15",
-			"name": "Lucie Dayot"
+			"name": "Sourya"
 		},
 		{
 			"id": "16",
@@ -429,7 +429,7 @@
 		},
 		{
 			"id": "90",
-			"name": "Louison"
+			"name": "Lison"
 		}
 	],
 	"spots": [
@@ -965,6 +965,12 @@
 			"type": "Uber chiotte aide",
 			"spotId": "5",
 			"questTypeId": "12"
+		},
+		{
+			"id": "81",
+			"name": "👁️ Démontage de SPAM",
+			"type": "Suivi de spectacle",
+			"questTypeId": "8"
 		}
 	],
 	"tasks": [
@@ -1299,8 +1305,8 @@
 			"start": "2026-08-20T19:00:00.000Z",
 			"end": "2026-08-20T21:00:00.000Z",
 			"volunteerIds": [
-				"46",
-				"47"
+				"47",
+				"35"
 			],
 			"spotId": "1",
 			"missionId": "23",
@@ -1522,18 +1528,6 @@
 			],
 			"spotId": "1",
 			"missionId": "28",
-			"questTypeId": "9"
-		},
-		{
-			"id": "9875",
-			"title": "Renfort 6",
-			"start": "2026-08-19T17:00:00.000Z",
-			"end": "2026-08-19T19:00:00.000Z",
-			"volunteerIds": [
-				"37"
-			],
-			"spotId": "1",
-			"missionId": "29",
 			"questTypeId": "9"
 		},
 		{
@@ -2354,7 +2348,7 @@
 			"start": "2026-08-22T17:00:00.000Z",
 			"end": "2026-08-22T19:00:00.000Z",
 			"volunteerIds": [
-				"6"
+				"13"
 			],
 			"spotId": "4",
 			"missionId": "46",
@@ -2366,7 +2360,7 @@
 			"start": "2026-08-19T19:00:00.000Z",
 			"end": "2026-08-19T20:00:00.000Z",
 			"volunteerIds": [
-				"80"
+				"37"
 			],
 			"spotId": "4",
 			"missionId": "47",
@@ -2745,8 +2739,8 @@
 			"start": "2026-08-22T19:00:00.000Z",
 			"end": "2026-08-22T21:00:00.000Z",
 			"volunteerIds": [
-				"30",
-				"47"
+				"86",
+				"35"
 			],
 			"spotId": "3",
 			"missionId": "53",
@@ -2821,7 +2815,7 @@
 				"16",
 				"18",
 				"48",
-				"86"
+				"15"
 			],
 			"spotId": "1",
 			"missionId": "55",
@@ -2836,7 +2830,7 @@
 				"45",
 				"48",
 				"61",
-				"35"
+				"46"
 			],
 			"spotId": "1",
 			"missionId": "55",
@@ -2865,8 +2859,8 @@
 			"volunteerIds": [
 				"19",
 				"45",
-				"86",
-				"35"
+				"30",
+				"90"
 			],
 			"spotId": "1",
 			"missionId": "55",
@@ -2910,7 +2904,6 @@
 			"volunteerIds": [
 				"17",
 				"36",
-				"86",
 				"52"
 			],
 			"spotId": "1",
@@ -3218,10 +3211,10 @@
 			"start": "2026-08-19T17:00:00.000Z",
 			"end": "2026-08-19T19:00:00.000Z",
 			"volunteerIds": [
-				"15",
 				"6",
 				"81",
-				"20"
+				"20",
+				"86"
 			],
 			"missionId": "62",
 			"questTypeId": "8"
@@ -3413,7 +3406,7 @@
 				"16",
 				"17",
 				"77",
-				"13"
+				"6"
 			],
 			"spotId": "1",
 			"missionId": "66",
@@ -4106,8 +4099,8 @@
 		{
 			"id": "10076",
 			"title": "👁️ Montage SPAM",
-			"start": "2026-08-19T15:45:00.000Z",
-			"end": "2026-08-19T16:45:00.000Z",
+			"start": "2026-08-19T14:00:00.000Z",
+			"end": "2026-08-19T15:00:00.000Z",
 			"volunteerIds": [
 				"32",
 				"66"
@@ -4118,8 +4111,8 @@
 		{
 			"id": "10077",
 			"title": "👁️ Montage SPAM",
-			"start": "2026-08-20T15:45:00.000Z",
-			"end": "2026-08-20T16:45:00.000Z",
+			"start": "2026-08-20T14:00:00.000Z",
+			"end": "2026-08-20T15:00:00.000Z",
 			"volunteerIds": [
 				"32",
 				"66"
@@ -4130,8 +4123,8 @@
 		{
 			"id": "10078",
 			"title": "👁️ Montage SPAM",
-			"start": "2026-08-21T15:45:00.000Z",
-			"end": "2026-08-21T16:45:00.000Z",
+			"start": "2026-08-21T14:00:00.000Z",
+			"end": "2026-08-21T15:00:00.000Z",
 			"volunteerIds": [
 				"32",
 				"66"
@@ -4142,8 +4135,8 @@
 		{
 			"id": "10079",
 			"title": "👁️ Montage SPAM",
-			"start": "2026-08-22T15:45:00.000Z",
-			"end": "2026-08-22T16:45:00.000Z",
+			"start": "2026-08-22T14:00:00.000Z",
+			"end": "2026-08-22T15:00:00.000Z",
 			"volunteerIds": [
 				"32",
 				"66"
