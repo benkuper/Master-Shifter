@@ -4,7 +4,7 @@
 	"name": "Bisous la porte",
 	"period": "19 août - 22 août 2026",
 	"description": "Planning synchronise depuis Grist.",
-	"updatedAt": "2026-08-17T16:05:24.514Z",
+	"updatedAt": "2026-08-17T21:11:13.981Z",
 	"timezone": "Europe/Paris",
 	"dayStartHour": 5,
 	"solutionId": 6,
@@ -1969,7 +1969,7 @@
 			"end": "2026-08-20T13:00:00.000Z",
 			"volunteerIds": [
 				"106",
-				"116"
+				"161"
 			],
 			"spotId": "3",
 			"missionId": "1",
@@ -4108,8 +4108,8 @@
 			"start": "2026-08-22T09:00:00.000Z",
 			"end": "2026-08-22T09:20:00.000Z",
 			"volunteerIds": [
-				"111",
-				"127"
+				"127",
+				"161"
 			],
 			"spotId": "2",
 			"missionId": "57",
@@ -4745,9 +4745,9 @@
 			"start": "2026-08-21T08:00:00.000Z",
 			"end": "2026-08-21T09:00:00.000Z",
 			"volunteerIds": [
-				"131",
 				"144",
-				"83"
+				"83",
+				"155"
 			],
 			"spotId": "1",
 			"missionId": "62",
@@ -4817,7 +4817,7 @@
 			"volunteerIds": [
 				"103",
 				"136",
-				"73"
+				"161"
 			],
 			"spotId": "1",
 			"missionId": "63",
@@ -5845,7 +5845,7 @@
 			"start": "2026-08-22T09:10:00.000Z",
 			"end": "2026-08-22T09:40:00.000Z",
 			"volunteerIds": [
-				"131"
+				"155"
 			],
 			"spotId": "2",
 			"missionId": "83",
