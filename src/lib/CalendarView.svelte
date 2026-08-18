@@ -16,6 +16,7 @@
 		UserRound,
 		UsersRound
 	} from '@lucide/svelte';
+	import CalendarExportMenu from './CalendarExportMenu.svelte';
 	import MultiSelect from './MultiSelect.svelte';
 	import {
 		byName,
@@ -366,9 +367,18 @@
 				</div>
 			</div>
 
-			<div class="calendar-header__stats">
-				<strong>{filteredTasks.length}</strong>
-				<span>sur {eventWindow.tasks.length} quête{eventWindow.tasks.length > 1 ? 's' : ''}</span>
+			<div class="calendar-header__actions">
+				<div class="calendar-header__stats">
+					<strong>{filteredTasks.length}</strong>
+					<span>sur {eventWindow.tasks.length} quête{eventWindow.tasks.length > 1 ? 's' : ''}</span>
+				</div>
+				<CalendarExportMenu
+					projectName={project.name}
+					projectSlug={project.slug}
+					tasks={filteredTasks}
+					{timezone}
+					{dayStartHour}
+				/>
 			</div>
 		</header>
 
@@ -616,6 +626,13 @@
 		display: grid;
 		min-width: 100px;
 		text-align: right;
+	}
+
+	.calendar-header__actions {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		gap: 12px;
 	}
 
 	.calendar-header__stats strong {
@@ -1003,8 +1020,13 @@
 			display: none;
 		}
 
-		.calendar-header__stats {
+		.calendar-header__actions {
 			grid-column: 2;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+		}
+
+		.calendar-header__stats {
 			min-width: 0;
 			text-align: left;
 		}

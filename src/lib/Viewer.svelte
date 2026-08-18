@@ -25,6 +25,7 @@
 	} from './schedule';
 	import { projectTheme, themeStyle as getThemeStyle } from './theme';
 	import { getPreviewSolutionId, solutionById } from './solutionPreview';
+	import CalendarExportMenu from './CalendarExportMenu.svelte';
 	import InstallButton from './InstallButton.svelte';
 	import TaskCard from './TaskCard.svelte';
 	import type { EnrichedTask, ProjectRegistry, ScheduleData, SolutionPreviewData, ViewMode } from './types';
@@ -396,6 +397,15 @@
 				<a class="share-link" href={`${base}/${project.slug}/calendrier`.replace(/\/+/g, '/')}>
 					<CalendarDays size={18} aria-hidden="true" />
 				</a>
+
+				<CalendarExportMenu
+					projectName={project.name}
+					projectSlug={project.slug}
+					tasks={contextTasks}
+					timezone={projectTimezone}
+					{dayStartHour}
+					compact
+				/>
 
 				<button type="button" class="icon-button print-button" title="Imprimer" onclick={printPage}>
 					<Printer size={19} aria-hidden="true" />
