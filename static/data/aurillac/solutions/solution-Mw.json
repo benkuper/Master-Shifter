@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"solutionId": 3,
-	"updatedAt": "2026-08-16T08:40:41.759Z",
+	"updatedAt": "2026-08-18T17:30:28.639Z",
 	"tasks": [
 		{
 			"id": "1449",
@@ -13,7 +13,8 @@
 			],
 			"spotId": "4",
 			"missionId": "100",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1450",
@@ -25,7 +26,8 @@
 			],
 			"spotId": "4",
 			"missionId": "101",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1451",
@@ -442,7 +444,8 @@
 			],
 			"spotId": "3",
 			"missionId": "1",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1484",
@@ -455,7 +458,8 @@
 			],
 			"spotId": "3",
 			"missionId": "1",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1485",
@@ -468,7 +472,8 @@
 			],
 			"spotId": "3",
 			"missionId": "1",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1486",
@@ -481,7 +486,8 @@
 			],
 			"spotId": "3",
 			"missionId": "1",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1487",
@@ -801,7 +807,8 @@
 			],
 			"spotId": "4",
 			"missionId": "25",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1508",
@@ -813,7 +820,8 @@
 			],
 			"spotId": "4",
 			"missionId": "25",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1509",
@@ -825,7 +833,8 @@
 			],
 			"spotId": "4",
 			"missionId": "25",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1510",
@@ -837,7 +846,8 @@
 			],
 			"spotId": "4",
 			"missionId": "25",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1511",
@@ -849,7 +859,8 @@
 			],
 			"spotId": "6",
 			"missionId": "26",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1512",
@@ -861,7 +872,8 @@
 			],
 			"spotId": "6",
 			"missionId": "26",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1513",
@@ -873,7 +885,8 @@
 			],
 			"spotId": "6",
 			"missionId": "26",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1514",
@@ -885,7 +898,8 @@
 			],
 			"spotId": "6",
 			"missionId": "26",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1515",
@@ -898,7 +912,8 @@
 			],
 			"spotId": "6",
 			"missionId": "27",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1516",
@@ -911,7 +926,8 @@
 			],
 			"spotId": "6",
 			"missionId": "27",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1517",
@@ -924,7 +940,8 @@
 			],
 			"spotId": "6",
 			"missionId": "27",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1518",
@@ -937,7 +954,8 @@
 			],
 			"spotId": "6",
 			"missionId": "27",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1519",
@@ -949,7 +967,8 @@
 			],
 			"spotId": "6",
 			"missionId": "28",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1520",
@@ -961,7 +980,8 @@
 			],
 			"spotId": "6",
 			"missionId": "28",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1521",
@@ -973,7 +993,8 @@
 			],
 			"spotId": "6",
 			"missionId": "28",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1522",
@@ -985,7 +1006,8 @@
 			],
 			"spotId": "6",
 			"missionId": "28",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1523",
@@ -997,7 +1019,8 @@
 			],
 			"spotId": "6",
 			"missionId": "28",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1524",
@@ -1009,7 +1032,8 @@
 			],
 			"spotId": "6",
 			"missionId": "28",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1525",
@@ -1021,7 +1045,8 @@
 			],
 			"spotId": "6",
 			"missionId": "28",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1526",
@@ -1033,7 +1058,8 @@
 			],
 			"spotId": "6",
 			"missionId": "28",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1527",
@@ -1046,7 +1072,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1528",
@@ -1059,7 +1086,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1529",
@@ -1072,7 +1100,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1530",
@@ -1085,7 +1114,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1531",
@@ -1098,7 +1128,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1532",
@@ -1111,7 +1142,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1533",
@@ -1124,7 +1156,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1534",
@@ -1137,7 +1170,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1535",
@@ -1150,7 +1184,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1536",
@@ -1163,7 +1198,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1537",
@@ -1176,7 +1212,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1538",
@@ -1189,7 +1226,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1539",
@@ -1202,7 +1240,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1540",
@@ -1215,7 +1254,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1541",
@@ -1228,7 +1268,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1542",
@@ -1241,7 +1282,8 @@
 			],
 			"spotId": "6",
 			"missionId": "29",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1543",
@@ -1256,7 +1298,8 @@
 			],
 			"spotId": "3",
 			"missionId": "2",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1544",
@@ -1271,7 +1314,8 @@
 			],
 			"spotId": "3",
 			"missionId": "2",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1545",
@@ -1286,7 +1330,8 @@
 			],
 			"spotId": "3",
 			"missionId": "2",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1546",
@@ -1301,7 +1346,8 @@
 			],
 			"spotId": "3",
 			"missionId": "2",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1547",
@@ -1314,7 +1360,8 @@
 			],
 			"spotId": "2",
 			"missionId": "30",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1548",
@@ -1327,7 +1374,8 @@
 			],
 			"spotId": "2",
 			"missionId": "30",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1549",
@@ -1340,7 +1388,8 @@
 			],
 			"spotId": "2",
 			"missionId": "30",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1550",
@@ -1353,7 +1402,8 @@
 			],
 			"spotId": "2",
 			"missionId": "30",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1551",
@@ -1366,7 +1416,8 @@
 			],
 			"spotId": "7",
 			"missionId": "31",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1552",
@@ -1379,7 +1430,8 @@
 			],
 			"spotId": "7",
 			"missionId": "31",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1553",
@@ -1392,7 +1444,8 @@
 			],
 			"spotId": "7",
 			"missionId": "31",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1554",
@@ -1405,7 +1458,8 @@
 			],
 			"spotId": "7",
 			"missionId": "31",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1555",
@@ -1418,7 +1472,8 @@
 			],
 			"spotId": "2",
 			"missionId": "32",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1556",
@@ -1431,7 +1486,8 @@
 			],
 			"spotId": "2",
 			"missionId": "32",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1557",
@@ -1444,7 +1500,8 @@
 			],
 			"spotId": "2",
 			"missionId": "32",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1558",
@@ -1457,7 +1514,8 @@
 			],
 			"spotId": "2",
 			"missionId": "32",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1559",
@@ -1470,7 +1528,8 @@
 			],
 			"spotId": "10",
 			"missionId": "33",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1560",
@@ -1483,7 +1542,8 @@
 			],
 			"spotId": "10",
 			"missionId": "33",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1561",
@@ -1496,7 +1556,8 @@
 			],
 			"spotId": "10",
 			"missionId": "33",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1562",
@@ -1509,7 +1570,8 @@
 			],
 			"spotId": "10",
 			"missionId": "33",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1563",
@@ -1522,7 +1584,8 @@
 			],
 			"spotId": "7",
 			"missionId": "34",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1564",
@@ -1535,7 +1598,8 @@
 			],
 			"spotId": "7",
 			"missionId": "34",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1565",
@@ -1548,7 +1612,8 @@
 			],
 			"spotId": "7",
 			"missionId": "34",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1566",
@@ -1561,7 +1626,8 @@
 			],
 			"spotId": "7",
 			"missionId": "34",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1567",
@@ -1574,7 +1640,8 @@
 			],
 			"spotId": "10",
 			"missionId": "35",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1568",
@@ -1587,7 +1654,8 @@
 			],
 			"spotId": "10",
 			"missionId": "35",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1569",
@@ -1600,7 +1668,8 @@
 			],
 			"spotId": "10",
 			"missionId": "35",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1570",
@@ -1613,7 +1682,8 @@
 			],
 			"spotId": "10",
 			"missionId": "35",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1571",
@@ -1626,7 +1696,8 @@
 			],
 			"spotId": "2",
 			"missionId": "36",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1572",
@@ -1639,7 +1710,8 @@
 			],
 			"spotId": "2",
 			"missionId": "36",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1573",
@@ -1652,7 +1724,8 @@
 			],
 			"spotId": "2",
 			"missionId": "36",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1574",
@@ -1665,7 +1738,8 @@
 			],
 			"spotId": "2",
 			"missionId": "36",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1575",
@@ -1678,7 +1752,8 @@
 			],
 			"spotId": "10",
 			"missionId": "37",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1576",
@@ -1691,7 +1766,8 @@
 			],
 			"spotId": "10",
 			"missionId": "37",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1577",
@@ -1704,7 +1780,8 @@
 			],
 			"spotId": "10",
 			"missionId": "37",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1578",
@@ -1717,7 +1794,8 @@
 			],
 			"spotId": "10",
 			"missionId": "37",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1579",
@@ -1730,7 +1808,8 @@
 			],
 			"spotId": "2",
 			"missionId": "38",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1580",
@@ -1743,7 +1822,8 @@
 			],
 			"spotId": "2",
 			"missionId": "38",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1581",
@@ -1756,7 +1836,8 @@
 			],
 			"spotId": "2",
 			"missionId": "38",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1582",
@@ -1769,7 +1850,8 @@
 			],
 			"spotId": "2",
 			"missionId": "38",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1583",
@@ -1782,7 +1864,8 @@
 			],
 			"spotId": "10",
 			"missionId": "39",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1584",
@@ -1795,7 +1878,8 @@
 			],
 			"spotId": "10",
 			"missionId": "39",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1585",
@@ -1808,7 +1892,8 @@
 			],
 			"spotId": "10",
 			"missionId": "39",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1586",
@@ -1821,7 +1906,8 @@
 			],
 			"spotId": "10",
 			"missionId": "39",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1587",
@@ -1833,7 +1919,8 @@
 			],
 			"spotId": "3",
 			"missionId": "3",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1588",
@@ -1845,7 +1932,8 @@
 			],
 			"spotId": "3",
 			"missionId": "3",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1589",
@@ -1857,7 +1945,8 @@
 			],
 			"spotId": "3",
 			"missionId": "3",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1590",
@@ -1869,7 +1958,8 @@
 			],
 			"spotId": "3",
 			"missionId": "3",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1591",
@@ -1882,7 +1972,8 @@
 			],
 			"spotId": "9",
 			"missionId": "40",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1592",
@@ -1895,7 +1986,8 @@
 			],
 			"spotId": "9",
 			"missionId": "40",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1593",
@@ -1908,7 +2000,8 @@
 			],
 			"spotId": "9",
 			"missionId": "40",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1594",
@@ -1921,7 +2014,8 @@
 			],
 			"spotId": "9",
 			"missionId": "40",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1595",
@@ -1934,7 +2028,8 @@
 			],
 			"spotId": "2",
 			"missionId": "41",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1596",
@@ -1947,7 +2042,8 @@
 			],
 			"spotId": "2",
 			"missionId": "41",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1597",
@@ -1960,7 +2056,8 @@
 			],
 			"spotId": "2",
 			"missionId": "41",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1598",
@@ -1973,7 +2070,8 @@
 			],
 			"spotId": "2",
 			"missionId": "41",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1599",
@@ -1986,7 +2084,8 @@
 			],
 			"spotId": "2",
 			"missionId": "42",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1600",
@@ -1999,7 +2098,8 @@
 			],
 			"spotId": "2",
 			"missionId": "42",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1601",
@@ -2012,7 +2112,8 @@
 			],
 			"spotId": "2",
 			"missionId": "42",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1602",
@@ -2025,7 +2126,8 @@
 			],
 			"spotId": "2",
 			"missionId": "42",
-			"questTypeId": "25"
+			"questTypeId": "25",
+			"notes": "**Instal public, suivi spectacle, chapeau.**\n\nAvant le spectacle : se mettre en lien avec la technique et/ou les artistes pour savoir quel type d'accueil iels veulent. \n\nSoin du spectacle et du public: \nVigilance sur le placement public PMR et à ce que tout le monde voit bien (pas de chaise au milieu de personnes assises au sol)\nVoir pour des ombrages, des brumisateurs en cas de grosses chaleurs \n\nC'est possible de regarder le spectacle mais en étant en vigilance que tout se passe bien et que le silence soit respecté, notamment sur le site (autours du bar/resto...) en restant aux extrémités pour pouvoir se lever facilement. \n\nAprès le spectacle, il faudra passer le chapeau et après faire un possible changement de gradins en fonction du spectacle. (voir avec la coordo pour récupérer les chapeaux)"
 		},
 		{
 			"id": "1603",
@@ -2037,7 +2139,8 @@
 			],
 			"spotId": "4",
 			"missionId": "45",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1604",
@@ -2049,7 +2152,8 @@
 			],
 			"spotId": "4",
 			"missionId": "45",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1605",
@@ -2061,7 +2165,8 @@
 			],
 			"spotId": "4",
 			"missionId": "45",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1606",
@@ -2073,7 +2178,8 @@
 			],
 			"spotId": "4",
 			"missionId": "45",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1607",
@@ -2085,7 +2191,8 @@
 			],
 			"spotId": "4",
 			"missionId": "46",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1608",
@@ -2097,7 +2204,8 @@
 			],
 			"spotId": "4",
 			"missionId": "46",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1609",
@@ -2109,7 +2217,8 @@
 			],
 			"spotId": "4",
 			"missionId": "46",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1610",
@@ -2121,7 +2230,8 @@
 			],
 			"spotId": "4",
 			"missionId": "46",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1611",
@@ -2133,7 +2243,8 @@
 			],
 			"spotId": "4",
 			"missionId": "47",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1612",
@@ -2145,7 +2256,8 @@
 			],
 			"spotId": "4",
 			"missionId": "47",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1613",
@@ -2157,7 +2269,8 @@
 			],
 			"spotId": "4",
 			"missionId": "47",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1614",
@@ -2169,7 +2282,8 @@
 			],
 			"spotId": "4",
 			"missionId": "47",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1615",
@@ -2181,7 +2295,8 @@
 			],
 			"spotId": "4",
 			"missionId": "48",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1616",
@@ -2193,7 +2308,8 @@
 			],
 			"spotId": "4",
 			"missionId": "48",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1617",
@@ -2205,7 +2321,8 @@
 			],
 			"spotId": "4",
 			"missionId": "48",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1618",
@@ -2217,7 +2334,8 @@
 			],
 			"spotId": "4",
 			"missionId": "48",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1619",
@@ -2229,7 +2347,8 @@
 			],
 			"spotId": "4",
 			"missionId": "49",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1620",
@@ -2241,7 +2360,8 @@
 			],
 			"spotId": "4",
 			"missionId": "49",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1621",
@@ -2253,7 +2373,8 @@
 			],
 			"spotId": "4",
 			"missionId": "49",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1622",
@@ -2265,7 +2386,8 @@
 			],
 			"spotId": "4",
 			"missionId": "49",
-			"questTypeId": "23"
+			"questTypeId": "23",
+			"notes": "**Accueillir les programmateurs**\n\nA priori vous savez quoi faire.\n\nSinon voir Popi, référente du pôle."
 		},
 		{
 			"id": "1623",
@@ -2278,7 +2400,8 @@
 			],
 			"spotId": "3",
 			"missionId": "4",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1624",
@@ -2291,7 +2414,8 @@
 			],
 			"spotId": "3",
 			"missionId": "4",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1625",
@@ -2304,7 +2428,8 @@
 			],
 			"spotId": "3",
 			"missionId": "4",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1626",
@@ -2317,7 +2442,8 @@
 			],
 			"spotId": "3",
 			"missionId": "4",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1627",
@@ -2332,7 +2458,8 @@
 			],
 			"spotId": "1",
 			"missionId": "51",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1628",
@@ -2347,7 +2474,8 @@
 			],
 			"spotId": "1",
 			"missionId": "51",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1629",
@@ -2360,7 +2488,8 @@
 			],
 			"spotId": "10",
 			"missionId": "52",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1630",
@@ -2373,7 +2502,8 @@
 			],
 			"spotId": "10",
 			"missionId": "52",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1631",
@@ -2386,7 +2516,8 @@
 			],
 			"spotId": "10",
 			"missionId": "52",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1632",
@@ -2399,7 +2530,8 @@
 			],
 			"spotId": "10",
 			"missionId": "52",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1633",
@@ -2412,7 +2544,8 @@
 			],
 			"spotId": "7",
 			"missionId": "53",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1634",
@@ -2425,7 +2558,8 @@
 			],
 			"spotId": "7",
 			"missionId": "53",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1635",
@@ -2438,7 +2572,8 @@
 			],
 			"spotId": "7",
 			"missionId": "53",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1636",
@@ -2451,7 +2586,8 @@
 			],
 			"spotId": "7",
 			"missionId": "53",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1637",
@@ -2464,7 +2600,8 @@
 			],
 			"spotId": "7",
 			"missionId": "54",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1638",
@@ -2477,7 +2614,8 @@
 			],
 			"spotId": "7",
 			"missionId": "54",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1639",
@@ -2490,7 +2628,8 @@
 			],
 			"spotId": "7",
 			"missionId": "54",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1640",
@@ -2503,7 +2642,8 @@
 			],
 			"spotId": "7",
 			"missionId": "54",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1641",
@@ -2516,7 +2656,8 @@
 			],
 			"spotId": "10",
 			"missionId": "55",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1642",
@@ -2529,7 +2670,8 @@
 			],
 			"spotId": "10",
 			"missionId": "55",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1643",
@@ -2542,7 +2684,8 @@
 			],
 			"spotId": "10",
 			"missionId": "55",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1644",
@@ -2555,7 +2698,8 @@
 			],
 			"spotId": "10",
 			"missionId": "55",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1645",
@@ -2568,7 +2712,8 @@
 			],
 			"spotId": "2",
 			"missionId": "57",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1646",
@@ -2581,7 +2726,8 @@
 			],
 			"spotId": "2",
 			"missionId": "57",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1647",
@@ -2594,7 +2740,8 @@
 			],
 			"spotId": "2",
 			"missionId": "57",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1648",
@@ -2607,7 +2754,8 @@
 			],
 			"spotId": "2",
 			"missionId": "57",
-			"questTypeId": "26"
+			"questTypeId": "26",
+			"notes": "**Déplacer des gradins**\n\nDifférentes missions selon l'heure. \nSe présenter sur le lieu de la mission"
 		},
 		{
 			"id": "1649",
@@ -2620,7 +2768,8 @@
 			],
 			"spotId": "6",
 			"missionId": "58",
-			"questTypeId": "3"
+			"questTypeId": "3",
+			"notes": "**Servir au bar ..*\nEt autres missions annexes..\n\nRéférent.e.s sur ce pôle : Jojo, Joseph, MA, Pierro\n\nFiche de poste au bar et ci dessous :\nhttps://docs.google.com/document/d/1BJqnjvx9CfZDjv21TEgJUekA9E5RoiX4pZvNIyMbxtc/edit?tab=t.0"
 		},
 		{
 			"id": "1650",
@@ -2635,7 +2784,8 @@
 			],
 			"spotId": "1",
 			"missionId": "59",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1651",
@@ -2647,7 +2797,8 @@
 			],
 			"spotId": "3",
 			"missionId": "5",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1652",
@@ -2659,7 +2810,8 @@
 			],
 			"spotId": "3",
 			"missionId": "5",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1653",
@@ -2671,7 +2823,8 @@
 			],
 			"spotId": "3",
 			"missionId": "5",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1654",
@@ -2683,7 +2836,8 @@
 			],
 			"spotId": "3",
 			"missionId": "5",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1655",
@@ -2696,7 +2850,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1656",
@@ -2709,7 +2864,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1657",
@@ -2722,7 +2878,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1658",
@@ -2735,7 +2892,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1659",
@@ -2748,7 +2906,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1660",
@@ -2761,7 +2920,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1661",
@@ -2774,7 +2934,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1662",
@@ -2787,7 +2948,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1663",
@@ -2800,7 +2962,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1664",
@@ -2813,7 +2976,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1665",
@@ -2826,7 +2990,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1666",
@@ -2839,7 +3004,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1667",
@@ -2852,7 +3018,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1668",
@@ -2865,7 +3032,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1669",
@@ -2878,7 +3046,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1670",
@@ -2891,7 +3060,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1671",
@@ -2904,7 +3074,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1672",
@@ -2917,7 +3088,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1673",
@@ -2930,7 +3102,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1674",
@@ -2943,7 +3116,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1675",
@@ -2956,7 +3130,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1676",
@@ -2969,7 +3144,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1677",
@@ -2982,7 +3158,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1678",
@@ -2995,7 +3172,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1679",
@@ -3008,7 +3186,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1680",
@@ -3021,7 +3200,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1681",
@@ -3034,7 +3214,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1682",
@@ -3047,7 +3228,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1683",
@@ -3060,7 +3242,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1684",
@@ -3073,7 +3256,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1685",
@@ -3086,7 +3270,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1686",
@@ -3099,7 +3284,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1687",
@@ -3112,7 +3298,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1688",
@@ -3125,7 +3312,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1689",
@@ -3138,7 +3326,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1690",
@@ -3151,7 +3340,8 @@
 			],
 			"spotId": "1",
 			"missionId": "60",
-			"questTypeId": "27"
+			"questTypeId": "27",
+			"notes": "**volants**\n\nC'est une astreinte sur site en bonus !\nQuelques exemples : \nFaire le tour des pôles, se rendre dispo pour remplacer quelqu'un.e ou pour s'ajouter à une équipe en cas de besoin. \nFaire du renfort sur les chapeaux\nEt être en bonus sur de la vigilance sonore sur site pendant les spectacles.\nAller vider le verre ou faire un peu de clean site"
 		},
 		{
 			"id": "1691",
@@ -3164,7 +3354,8 @@
 			],
 			"spotId": "3",
 			"missionId": "61",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1692",
@@ -3177,7 +3368,8 @@
 			],
 			"spotId": "3",
 			"missionId": "61",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1693",
@@ -3190,7 +3382,8 @@
 			],
 			"spotId": "3",
 			"missionId": "61",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1694",
@@ -3203,7 +3396,8 @@
 			],
 			"spotId": "3",
 			"missionId": "61",
-			"questTypeId": "5"
+			"questTypeId": "5",
+			"notes": "**Cuisiner et laver des plats**\n\nAller en cuisine (cathering) à l'heure indiquée, se laver les mains et suivre les consignes du référent sur place.\n\nRéférent sur place: Kayak et Louise"
 		},
 		{
 			"id": "1695",
@@ -3217,7 +3411,8 @@
 			],
 			"spotId": "1",
 			"missionId": "62",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1696",
@@ -3231,7 +3426,8 @@
 			],
 			"spotId": "1",
 			"missionId": "62",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1697",
@@ -3245,7 +3441,8 @@
 			],
 			"spotId": "1",
 			"missionId": "62",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1698",
@@ -3259,7 +3456,8 @@
 			],
 			"spotId": "1",
 			"missionId": "62",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1699",
@@ -3273,7 +3471,8 @@
 			],
 			"spotId": "1",
 			"missionId": "63",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1700",
@@ -3287,7 +3486,8 @@
 			],
 			"spotId": "1",
 			"missionId": "63",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1701",
@@ -3301,7 +3501,8 @@
 			],
 			"spotId": "1",
 			"missionId": "63",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1702",
@@ -3315,7 +3516,8 @@
 			],
 			"spotId": "1",
 			"missionId": "63",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1703",
@@ -3328,7 +3530,8 @@
 			],
 			"spotId": "1",
 			"missionId": "64",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1704",
@@ -3341,7 +3544,8 @@
 			],
 			"spotId": "1",
 			"missionId": "64",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1705",
@@ -3354,7 +3558,8 @@
 			],
 			"spotId": "1",
 			"missionId": "64",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1706",
@@ -3367,7 +3572,8 @@
 			],
 			"spotId": "1",
 			"missionId": "64",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1707",
@@ -3381,7 +3587,8 @@
 			],
 			"spotId": "1",
 			"missionId": "65",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1708",
@@ -3395,7 +3602,8 @@
 			],
 			"spotId": "1",
 			"missionId": "65",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1709",
@@ -3409,7 +3617,8 @@
 			],
 			"spotId": "1",
 			"missionId": "65",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1710",
@@ -3423,7 +3632,8 @@
 			],
 			"spotId": "1",
 			"missionId": "65",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1711",
@@ -3436,7 +3646,8 @@
 			],
 			"spotId": "1",
 			"missionId": "66",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1712",
@@ -3449,7 +3660,8 @@
 			],
 			"spotId": "1",
 			"missionId": "66",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1713",
@@ -3462,7 +3674,8 @@
 			],
 			"spotId": "1",
 			"missionId": "66",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1714",
@@ -3475,7 +3688,8 @@
 			],
 			"spotId": "1",
 			"missionId": "66",
-			"questTypeId": "1"
+			"questTypeId": "1",
+			"notes": "#**Fiche de poste pour bénévoles Clean/toilettes**\n\n**Avant la mission :**\n- mettre une tenue adaptée\n- Avoir des chaussure tous terrains\n\n**Pendant la mission :**\n- Faire le tour des poubelles pour les trier\n- Changer les sacs si besoin et les placer dans les bennes correspondantes (sacs transparents dans bennes jaune, sacs noir dans bennes marron pour le tout venant)\n-Rentrez les bennes au sein du site le matin (après le passage des services techniques de la ville pour le vidage). \n-Sortir les bennes du site le soir (avant le passage des services techniques de la ville pour le vidage). \n-Après le repas du midi/soir:\nFaire vaisselle des gastros\nChanger l’eau et nettoyer bacs auto wash\n-Ramasser les déchets sur sol du site, pince disponible pour les bénévoles\n-Ramasser caca chien: sacs spécifiques disponibles\n- Passer à la restauration pour vider le compost et le placer dans la benne grise\n- Transférer les matières organiques des toilettes sèches du site dans les grands bidons hermétiques bleus.\n- Nettoyer les cabines de toilette sèches (un coup de balais, de produit sur la cuvette)\n- Faire un réassort dans les toilettes (PQ, produit hygiènique, sciure)\n- Récupérer les déchets présent au sol \n- Pour les créneaux de vidage des toilettes sèches dans la benne principale à cette adresse: https://maps.app.goo.gl/f654aQykytTFvfR28 . Etre en capacité de porter des charges lourdes\n-\nTout le matériel nécessaire (gants, sac, produit… sera disponible dans un placard spécifique que nous vous indiquerons.\n\n**Après la mission:** \n-Se laver les main et profiter de la pause\n-Boire de l’eau!"
 		},
 		{
 			"id": "1715",
@@ -3490,7 +3704,8 @@
 			],
 			"spotId": "1",
 			"missionId": "67",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1716",
@@ -3505,7 +3720,8 @@
 			],
 			"spotId": "1",
 			"missionId": "68",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1717",
@@ -3517,7 +3733,8 @@
 			],
 			"spotId": "4",
 			"missionId": "69",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1718",
@@ -3529,7 +3746,8 @@
 			],
 			"spotId": "4",
 			"missionId": "69",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1719",
@@ -3541,7 +3759,8 @@
 			],
 			"spotId": "4",
 			"missionId": "69",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1720",
@@ -3553,7 +3772,8 @@
 			],
 			"spotId": "4",
 			"missionId": "69",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1721",
@@ -3565,7 +3785,8 @@
 			],
 			"spotId": "4",
 			"missionId": "70",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1722",
@@ -3577,7 +3798,8 @@
 			],
 			"spotId": "4",
 			"missionId": "70",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1723",
@@ -3589,7 +3811,8 @@
 			],
 			"spotId": "4",
 			"missionId": "70",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1724",
@@ -3601,7 +3824,8 @@
 			],
 			"spotId": "4",
 			"missionId": "71",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1725",
@@ -3613,7 +3837,8 @@
 			],
 			"spotId": "4",
 			"missionId": "71",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1726",
@@ -3625,7 +3850,8 @@
 			],
 			"spotId": "4",
 			"missionId": "71",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1727",
@@ -3637,7 +3863,8 @@
 			],
 			"spotId": "4",
 			"missionId": "71",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1728",
@@ -3649,7 +3876,8 @@
 			],
 			"spotId": "4",
 			"missionId": "72",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1729",
@@ -3661,7 +3889,8 @@
 			],
 			"spotId": "4",
 			"missionId": "72",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1730",
@@ -3673,7 +3902,8 @@
 			],
 			"spotId": "4",
 			"missionId": "72",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1731",
@@ -3685,7 +3915,8 @@
 			],
 			"spotId": "4",
 			"missionId": "73",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1732",
@@ -3697,7 +3928,8 @@
 			],
 			"spotId": "4",
 			"missionId": "73",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1733",
@@ -3709,7 +3941,8 @@
 			],
 			"spotId": "4",
 			"missionId": "73",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1734",
@@ -3721,7 +3954,8 @@
 			],
 			"spotId": "4",
 			"missionId": "73",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1735",
@@ -3733,7 +3967,8 @@
 			],
 			"spotId": "4",
 			"missionId": "74",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1736",
@@ -3745,7 +3980,8 @@
 			],
 			"spotId": "4",
 			"missionId": "74",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1737",
@@ -3757,7 +3993,8 @@
 			],
 			"spotId": "4",
 			"missionId": "74",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1738",
@@ -3769,7 +4006,8 @@
 			],
 			"spotId": "4",
 			"missionId": "74",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1739",
@@ -3781,7 +4019,8 @@
 			],
 			"spotId": "4",
 			"missionId": "75",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1740",
@@ -3793,7 +4032,8 @@
 			],
 			"spotId": "4",
 			"missionId": "75",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1741",
@@ -3805,7 +4045,8 @@
 			],
 			"spotId": "4",
 			"missionId": "75",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1742",
@@ -3817,7 +4058,8 @@
 			],
 			"spotId": "4",
 			"missionId": "76",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1743",
@@ -3829,7 +4071,8 @@
 			],
 			"spotId": "4",
 			"missionId": "76",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1744",
@@ -3841,7 +4084,8 @@
 			],
 			"spotId": "4",
 			"missionId": "76",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1745",
@@ -3853,7 +4097,8 @@
 			],
 			"spotId": "4",
 			"missionId": "76",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1746",
@@ -3865,7 +4110,8 @@
 			],
 			"spotId": "4",
 			"missionId": "77",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1747",
@@ -3877,7 +4123,8 @@
 			],
 			"spotId": "4",
 			"missionId": "77",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1748",
@@ -3889,7 +4136,8 @@
 			],
 			"spotId": "4",
 			"missionId": "77",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1749",
@@ -3901,7 +4149,8 @@
 			],
 			"spotId": "4",
 			"missionId": "77",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1750",
@@ -3913,7 +4162,8 @@
 			],
 			"spotId": "9",
 			"missionId": "78",
-			"questTypeId": "29"
+			"questTypeId": "29",
+			"notes": "**Aider les artiste sur leur instal ou démontage**\n\nDemander directement aux artistes comment les aider."
 		},
 		{
 			"id": "1751",
@@ -3925,7 +4175,8 @@
 			],
 			"spotId": "9",
 			"missionId": "78",
-			"questTypeId": "29"
+			"questTypeId": "29",
+			"notes": "**Aider les artiste sur leur instal ou démontage**\n\nDemander directement aux artistes comment les aider."
 		},
 		{
 			"id": "1752",
@@ -3937,7 +4188,8 @@
 			],
 			"spotId": "9",
 			"missionId": "78",
-			"questTypeId": "29"
+			"questTypeId": "29",
+			"notes": "**Aider les artiste sur leur instal ou démontage**\n\nDemander directement aux artistes comment les aider."
 		},
 		{
 			"id": "1753",
@@ -3949,7 +4201,8 @@
 			],
 			"spotId": "9",
 			"missionId": "78",
-			"questTypeId": "29"
+			"questTypeId": "29",
+			"notes": "**Aider les artiste sur leur instal ou démontage**\n\nDemander directement aux artistes comment les aider."
 		},
 		{
 			"id": "1754",
@@ -4005,7 +4258,8 @@
 			],
 			"spotId": "4",
 			"missionId": "7",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1759",
@@ -4017,7 +4271,8 @@
 			],
 			"spotId": "4",
 			"missionId": "7",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1760",
@@ -4029,7 +4284,8 @@
 			],
 			"spotId": "4",
 			"missionId": "7",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1761",
@@ -4041,7 +4297,8 @@
 			],
 			"spotId": "4",
 			"missionId": "7",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1762",
@@ -4053,7 +4310,8 @@
 			],
 			"spotId": "4",
 			"missionId": "7",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1763",
@@ -4065,7 +4323,8 @@
 			],
 			"spotId": "4",
 			"missionId": "7",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1764",
@@ -4077,7 +4336,8 @@
 			],
 			"spotId": "4",
 			"missionId": "7",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1765",
@@ -4089,7 +4349,8 @@
 			],
 			"spotId": "4",
 			"missionId": "7",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		},
 		{
 			"id": "1766",
@@ -4145,7 +4406,8 @@
 			],
 			"spotId": "1",
 			"missionId": "81",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1771",
@@ -4157,7 +4419,8 @@
 			],
 			"spotId": "1",
 			"missionId": "81",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1772",
@@ -4169,7 +4432,8 @@
 			],
 			"spotId": "1",
 			"missionId": "81",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1773",
@@ -4181,7 +4445,8 @@
 			],
 			"spotId": "1",
 			"missionId": "81",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1774",
@@ -4193,7 +4458,8 @@
 			],
 			"spotId": "1",
 			"missionId": "81",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1775",
@@ -4205,7 +4471,8 @@
 			],
 			"spotId": "1",
 			"missionId": "81",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1776",
@@ -4217,7 +4484,8 @@
 			],
 			"spotId": "1",
 			"missionId": "81",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1777",
@@ -4229,7 +4497,8 @@
 			],
 			"spotId": "1",
 			"missionId": "81",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1778",
@@ -4242,7 +4511,8 @@
 			],
 			"spotId": "1",
 			"missionId": "82",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1779",
@@ -4255,7 +4525,8 @@
 			],
 			"spotId": "1",
 			"missionId": "82",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1780",
@@ -4268,7 +4539,8 @@
 			],
 			"spotId": "1",
 			"missionId": "82",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1781",
@@ -4281,7 +4553,8 @@
 			],
 			"spotId": "1",
 			"missionId": "82",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1782",
@@ -4294,7 +4567,8 @@
 			],
 			"spotId": "1",
 			"missionId": "82",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1783",
@@ -4307,7 +4581,8 @@
 			],
 			"spotId": "1",
 			"missionId": "82",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1784",
@@ -4320,7 +4595,8 @@
 			],
 			"spotId": "1",
 			"missionId": "82",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1785",
@@ -4333,7 +4609,8 @@
 			],
 			"spotId": "1",
 			"missionId": "82",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1786",
@@ -4345,7 +4622,8 @@
 			],
 			"spotId": "2",
 			"missionId": "83",
-			"questTypeId": "29"
+			"questTypeId": "29",
+			"notes": "**Aider les artiste sur leur instal ou démontage**\n\nDemander directement aux artistes comment les aider."
 		},
 		{
 			"id": "1787",
@@ -4357,7 +4635,8 @@
 			],
 			"spotId": "2",
 			"missionId": "83",
-			"questTypeId": "29"
+			"questTypeId": "29",
+			"notes": "**Aider les artiste sur leur instal ou démontage**\n\nDemander directement aux artistes comment les aider."
 		},
 		{
 			"id": "1788",
@@ -4369,7 +4648,8 @@
 			],
 			"spotId": "2",
 			"missionId": "83",
-			"questTypeId": "29"
+			"questTypeId": "29",
+			"notes": "**Aider les artiste sur leur instal ou démontage**\n\nDemander directement aux artistes comment les aider."
 		},
 		{
 			"id": "1789",
@@ -4381,7 +4661,8 @@
 			],
 			"spotId": "2",
 			"missionId": "83",
-			"questTypeId": "29"
+			"questTypeId": "29",
+			"notes": "**Aider les artiste sur leur instal ou démontage**\n\nDemander directement aux artistes comment les aider."
 		},
 		{
 			"id": "1790",
@@ -4393,7 +4674,8 @@
 			],
 			"spotId": "2",
 			"missionId": "84",
-			"questTypeId": "29"
+			"questTypeId": "29",
+			"notes": "**Aider les artiste sur leur instal ou démontage**\n\nDemander directement aux artistes comment les aider."
 		},
 		{
 			"id": "1791",
@@ -4405,7 +4687,8 @@
 			],
 			"spotId": "2",
 			"missionId": "84",
-			"questTypeId": "29"
+			"questTypeId": "29",
+			"notes": "**Aider les artiste sur leur instal ou démontage**\n\nDemander directement aux artistes comment les aider."
 		},
 		{
 			"id": "1792",
@@ -4417,7 +4700,8 @@
 			],
 			"spotId": "2",
 			"missionId": "84",
-			"questTypeId": "29"
+			"questTypeId": "29",
+			"notes": "**Aider les artiste sur leur instal ou démontage**\n\nDemander directement aux artistes comment les aider."
 		},
 		{
 			"id": "1793",
@@ -4429,7 +4713,8 @@
 			],
 			"spotId": "2",
 			"missionId": "84",
-			"questTypeId": "29"
+			"questTypeId": "29",
+			"notes": "**Aider les artiste sur leur instal ou démontage**\n\nDemander directement aux artistes comment les aider."
 		},
 		{
 			"id": "1794",
@@ -4442,7 +4727,8 @@
 			],
 			"spotId": "1",
 			"missionId": "85",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1795",
@@ -4455,7 +4741,8 @@
 			],
 			"spotId": "1",
 			"missionId": "85",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1796",
@@ -4468,7 +4755,8 @@
 			],
 			"spotId": "1",
 			"missionId": "85",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1797",
@@ -4481,7 +4769,8 @@
 			],
 			"spotId": "1",
 			"missionId": "86",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1798",
@@ -4496,7 +4785,8 @@
 			],
 			"spotId": "1",
 			"missionId": "87",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1799",
@@ -4511,7 +4801,8 @@
 			],
 			"spotId": "1",
 			"missionId": "88",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1800",
@@ -4526,7 +4817,8 @@
 			],
 			"spotId": "1",
 			"missionId": "89",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1801",
@@ -4541,7 +4833,8 @@
 			],
 			"spotId": "1",
 			"missionId": "90",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1802",
@@ -4556,7 +4849,8 @@
 			],
 			"spotId": "1",
 			"missionId": "91",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1803",
@@ -4571,7 +4865,8 @@
 			],
 			"spotId": "1",
 			"missionId": "92",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1804",
@@ -4586,7 +4881,8 @@
 			],
 			"spotId": "1",
 			"missionId": "93",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1805",
@@ -4601,7 +4897,8 @@
 			],
 			"spotId": "1",
 			"missionId": "94",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1806",
@@ -4616,7 +4913,8 @@
 			],
 			"spotId": "1",
 			"missionId": "95",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1807",
@@ -4631,7 +4929,8 @@
 			],
 			"spotId": "1",
 			"missionId": "96",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1808",
@@ -4646,7 +4945,8 @@
 			],
 			"spotId": "1",
 			"missionId": "97",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1809",
@@ -4661,7 +4961,8 @@
 			],
 			"spotId": "1",
 			"missionId": "98",
-			"questTypeId": "2"
+			"questTypeId": "2",
+			"notes": "**Séréniser le site** \nPorter une attention particulière aux VHSSD et RDR.\nPrendre soin ..\nRéférents sur ce pôle : Loua; Lu; Pascale\n\nFiche de poste complète a la tente \"brave\" et ici : https://docs.google.com/document/d/1TTvx8vMd6yHiFQzeRCqNg8jrGv9vdEmvHo-Twwelbcw/edit?tab=t.0"
 		},
 		{
 			"id": "1810",
@@ -4673,7 +4974,8 @@
 			],
 			"spotId": "4",
 			"missionId": "99",
-			"questTypeId": "4"
+			"questTypeId": "4",
+			"notes": "**Accueilir le public** et donnée les infos de base.\nVoir la fiche de poste complète à l'accueil et ci-dessous.\nAmandine est notre référente sur ce poste.\n\n\n https://docs.google.com/document/d/1kNYSScipCetLk8xYBgo_rm5YnpQCbRCyRHw-60vIAXI/edit?tab=t.0"
 		}
 	]
 }
