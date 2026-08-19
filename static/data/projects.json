@@ -7,7 +7,7 @@
 			"period": "19 août - 22 août 2026",
 			"description": "Planning synchronise depuis Grist.",
 			"dataPath": "data/aurillac/schedule.json",
-			"updatedAt": "2026-08-19T07:31:37.740Z",
+			"updatedAt": "2026-08-19T09:01:16.125Z",
 			"solutionId": 10,
 			"solutions": [
 				{
@@ -59,6 +59,11 @@
 					"id": 10,
 					"name": "2026-08-19T01:21:19 le dernier",
 					"dataPath": "data/aurillac/solutions/solution-MTA.json"
+				},
+				{
+					"id": 11,
+					"name": "2026-08-19T09:49:28 BAT",
+					"dataPath": "data/aurillac/solutions/solution-MTE.json"
 				}
 			]
 		},
